@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Fira Code";
+  src: url("/font/FiraCode-Regular.woff2") format("woff2"),
+    url("/font/FiraCode-Regular.woff") format("woff"),
+    url("/font/FiraCode-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Code", Fallback, sans-serif;
+}
