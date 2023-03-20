@@ -1,36 +1,45 @@
- const projectList = [
-    {
-        id: 1,
-        name: 'Counter',
-        description: 'A simple counter project with reset counter functionality',
-        image: '',
-        url: '',
-        github: '',
-        difficulty: 'Junior'
-    },
-    {
-        id: 2,
-        name: 'Counter',
-        description: 'A simple counter project with reset counter functionality',
-        image: '',
-        url: '',
-        github: '',
-        difficulty: 'Intermediate'
-    },{
-        id: 3,
-        name: 'Counter',
-        description: 'A simple counter project with reset counter functionality',
-        image: '',
-        url: '',
-        github: '',
-        difficulty: 'Advanced'
-    },{
-        id: 4,
-        name: 'Counter',
-        description: 'A simple counter project with reset counter functionality',
-        image: '',
-        url: '',
-        github: '',
-        difficulty: 'Advanced'
-    },
-]
+const projectList = [
+  {
+    id: 1,
+    name: "Counter",
+    description: "A simple counter project with reset counter functionality",
+    image: "/1.jpg",
+    url: "",
+    github: "",
+    difficulty: "Junior",
+    tags: ['html', 'css', 'javascript']
+  },
+  {
+    id: 2,
+    name: "Counter",
+    description: "A simple counter project with reset counter functionality",
+    image: "/1.jpg",
+    url: "",
+    github: "",
+    difficulty: "Intermediate",
+    tags: ['html', 'css', 'javascript']
+  },
+  {
+    id: 3,
+    name: "Counter",
+    description: "A simple swiet ejroi  counter project with reset counter functionality",
+    image: "/1.jpg",
+    url: "",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'javascript']
+  },
+  {
+    id: 4,
+    name: "Counter",
+    description: "A simple counter project with reset counter functionality",
+    image: "/1.jpg",
+    url: "",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
+];
+
+export { projectList };
+
