@@ -7,17 +7,17 @@ const projectList = [
     url: "",
     github: "",
     difficulty: "Junior",
-    tags: ['html', 'css', 'javascript']
+    tags: ['html', 'css', 'js']
   },
   {
     id: 2,
     name: "Counter",
     description: "A simple counter project with reset counter functionality",
-    image: "/1.jpg",
+    image: "/2.jpg",
     url: "",
     github: "",
     difficulty: "Intermediate",
-    tags: ['html', 'css', 'javascript']
+    tags: ['html', 'css', 'js']
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const projectList = [
     url: "",
     github: "",
     difficulty: "Advanced",
-    tags: ['html', 'css', 'javascript']
+    tags: ['html', 'css', 'js']
   },
   {
     id: 4,

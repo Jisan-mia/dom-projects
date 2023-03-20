@@ -1,8 +1,111 @@
 @import "/common-style.css";
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 57px;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* nav section */
+nav section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+nav .nav-list a {
+  font-size: 0.98rem;
+  transition: all 0.1s ease-in;
+}
+
+nav .nav-list a:hover {
+  text-decoration: underline;
+}
+
+nav .left-side {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+nav .left-side strong {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+nav .brand {
+  height: 40px;
+  width: 40px;
+}
+
+nav .brand img {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  transition: 0.6s;
+  padding: 0.5rem 0;
+}
+
+nav .github-link {
+  display: flex;
+  gap: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid black;
+  background-color: #fff;
+  padding: 4px 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+nav .github-link:hover {
+  background: rgba(211, 211, 211, 0.308);
+  color: rgba(21, 21, 201, 0.678);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section.hero {
+  padding-top: 60px;
+}
+
+/* project section */
+#projects {
+  margin-bottom: 30px;
+}
+
+#projects .projects-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding-top: 10px;
+}
+
+#projects .projects-title h2 {
+  display: inline-block;
+  border-bottom: 2px solid black;
+  width: 205px;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 .project-list-area {
@@ -62,6 +165,16 @@ section {
 
 .project-card .links {
   padding: 0 15px 15px 15px;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.project-card .links a {
+  text-decoration: underline;
+  color: rgba(10, 10, 202, 0.842);
+  font-weight: 500;
+  font-size: 0.95rem;
 }
 
 .tags {
@@ -84,22 +197,28 @@ section {
 .tags .css {
   color: #334ba1;
 }
-.tags .javascript {
+.tags .javascript,
+.js,
+.dom {
   color: #c44f7f;
 }
 
+.tags .api {
+  color: rgb(97, 184, 39);
+}
+
 .tags .general-tag {
-  color: yellowgreen;
+  color: rgb(74, 219, 74);
 }
 
 @media (max-width: 768px) {
-  body {
+  section {
     padding: 0 20px;
   }
 }
 
 @media (max-width: 1150px) {
-  body {
+  section {
     padding: 0 20px;
   }
 }
