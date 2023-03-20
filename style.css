@@ -267,10 +267,22 @@ section.hero {
   section {
     padding: 0 20px;
   }
+  .hero {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
 
 @media (max-width: 1150px) {
   section {
     padding: 0 20px;
+  }
+
+  .hero {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+@media (max-width: 400px) {
+  .project-nav-link {
+    display: none;
   }
 }
