@@ -1,4 +1,4 @@
-@import "/common-style.css";
+@import "./common-style.css";
 
 html {
   scroll-behavior: smooth;
