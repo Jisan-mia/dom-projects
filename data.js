@@ -4,7 +4,7 @@ const projectList = [
     name: "Counter",
     description: "A simple counter project with reset counter functionality",
     image: "./1.jpg",
-    url: "",
+    url: "./projects/1-counter/",
     github: "",
     difficulty: "Junior",
     tags: ['html', 'css', 'js']

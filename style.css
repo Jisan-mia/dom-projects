@@ -223,10 +223,13 @@ section.hero {
 }
 
 .project-card .links a {
-  text-decoration: underline;
-  color: rgba(10, 10, 202, 0.842);
+  /* text-decoration: underline;
+  color: rgba(10, 10, 202, 0.842); */
   font-weight: 500;
   font-size: 0.95rem;
+  padding: 4px 12px;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 
 .tags {
@@ -267,10 +270,22 @@ section.hero {
   section {
     padding: 0 20px;
   }
+  .hero {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
 
 @media (max-width: 1150px) {
   section {
     padding: 0 20px;
+  }
+
+  .hero {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+@media (max-width: 400px) {
+  .project-nav-link {
+    display: none;
   }
 }
