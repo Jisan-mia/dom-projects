@@ -83,8 +83,59 @@ a {
   color: inherit;
 }
 
+/* hero section start */
 section.hero {
   padding-top: 60px;
+}
+
+.hero {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero .hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.hero .hero-left h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.hero .hero-left p {
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.6rem;
+}
+
+.hero .hero-left button {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px 28px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 0.92rem;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.hero .hero-left button:hover {
+  background: rgba(156, 153, 153, 0.2);
+}
+
+.hero .hero-right .hero-right-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero .hero-right .hero-right-img img {
+  width: 100%;
+  height: 100%;
 }
 
 /* project section */
@@ -136,6 +187,7 @@ section.hero {
   height: 280px;
   padding: 15px;
   background: rgb(241, 241, 241);
+  border-bottom: 1px solid black;
 }
 
 .project-img-cont img {
