@@ -1,16 +1,42 @@
-@font-face {
-  font-family: "Fira Code";
-  src: url("/font/FiraCode-Regular.woff2") format("woff2"),
-    url("/font/FiraCode-Regular.woff") format("woff"),
-    url("/font/FiraCode-Regular.ttf") format("truetype");
+@import "/common-style.css";
+
+section {
+  max-width: 1240px;
+  margin: 0 auto;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.project-list-area {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
-body {
-  font-family: "Fira Code", Fallback, sans-serif;
+.project-card {
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
+
+.project-detail {
+  padding: 15px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-content h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.project-content p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 20px;
+  }
 }
