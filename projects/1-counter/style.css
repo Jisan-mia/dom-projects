@@ -1,1 +1,56 @@
 @import "../../common-style.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Tahoma;
+  display: flex;
+  height: 100vh;
+  margin: 0 20;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(213, 223, 241, 0.623);
+}
+
+main {
+  text-align: center;
+}
+
+main h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+main h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 2px;
+  background-color: rgba(162, 187, 241, 0.425);
+}
+.btn-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-area .btn {
+  font-size: 1.8em;
+  height: 100%;
+  width: 100%;
+  padding: 5px 30px;
+  margin: 0 10px;
+  border: none;
+  background: rgba(46, 59, 230, 0.781);
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.98);
+}

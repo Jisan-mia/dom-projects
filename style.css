@@ -10,6 +10,13 @@ section {
   margin: 0 auto;
 }
 
+button {
+  transition: all 0.2s ease-in-out;
+}
+button:active {
+  transform: scale(0.98);
+}
+
 /* nav section */
 nav section {
   display: flex;
@@ -230,6 +237,11 @@ section.hero {
   padding: 4px 12px;
   border: 1px solid black;
   border-radius: 4px;
+}
+
+.project-card .links a:hover {
+  background: rgba(151, 150, 150, 0.247);
+  color: rgba(21, 21, 201, 0.89);
 }
 
 .tags {

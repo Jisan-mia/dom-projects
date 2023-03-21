@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Profile Form | DOM Projects</title>
+  </head>
+  <body>
+    <main>
+      <form id="profileForm" autocomplete="off">
+        <h2 class="form-header">Profile Info</h2>
+        <input id="inputName" placeholder="Name" placeholder="" type="text" />
+        <input id="inputTitle" placeholder="Title" type="text" />
+        <textarea
+          name="description"
+          id="inputDescription"
+          cols=""
+          placeholder="Description"
+          rows=""
+        ></textarea>
+        <input
+          type="file"
+          class="custom-file-input"
+          name="avatar"
+          id="inputAvatar"
+          accept="image/png, image/jpeg"
+          onchange="getAvatarSrc(event)"
+        />
+        <input type="submit" class="btn" value="Add Profile" />
+      </form>
+      <section id="userProfile">
+        <div class="profile-info demo">
+          <div class="demo-profile">Demo</div>
+          <div class="avatar">
+            <img
+              id="profileImg"
+              src="https://jisan-mia.github.io/profile-card-form-js/img/avater.svg"
+              alt="Avatar"
+            />
+          </div>
+          <div class="info">
+            <h2 id="profileName">Jisan</h2>
+            <h3 id="profileTitle">Frontend Developer</h3>
+            <p id="profileDescription">
+              Enthusiastic and passionate Front-end Web Developer, who enjoys
+              coding.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
