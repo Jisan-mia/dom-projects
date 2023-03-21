@@ -21,10 +21,10 @@ const projectList = [
   },
   {
     id: 3,
-    name: "Counter",
-    description: "A simple swiet ejroi  counter project with reset counter functionality",
-    image: "./1.jpg",
-    url: "",
+    name: "Form Validation",
+    description: "Form Validation using JavaScript with features of showing success message and preview submitted form.",
+    image: "https://user-images.githubusercontent.com/61211600/226712136-1774aacb-cd68-4560-8132-2abd89c9d046.png",
+    url: "./projects/3-form-validation/",
     github: "",
     difficulty: "Advanced",
     tags: ['html', 'css', 'js']
