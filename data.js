@@ -22,7 +22,7 @@ const projectList = [
   {
     id: 3,
     name: "Form Validation",
-    description: "Form Validation using JavaScript with features of showing success message and preview submitted form.",
+    description: "Client side form validation using JavaScript. In addition, it has a success registration message and preview submitted form(readonly).",
     image: "https://user-images.githubusercontent.com/61211600/226712136-1774aacb-cd68-4560-8132-2abd89c9d046.png",
     url: "./projects/3-form-validation/",
     github: "",
@@ -31,10 +31,10 @@ const projectList = [
   },
   {
     id: 4,
-    name: "Counter",
-    description: "A simple counter project with reset counter functionality",
-    image: "./1.jpg",
-    url: "",
+    name: "Random User",
+    description: "This is a random user generator web app. In this project I used API to generate random user info. Every time you reload page/click generate btn, you'll see a new user.",
+    image: "https://user-images.githubusercontent.com/61211600/226713753-57126216-7002-4731-856a-bb758a38917f.png",
+    url: "./projects/4-random-user/",
     github: "",
     difficulty: "Advanced",
     tags: ['html', 'css', 'js']

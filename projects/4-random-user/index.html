@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Random User | DOM Projects</title>
+  </head>
+  <body>
+    <main class="main-section">
+      <!-- watermark -->
+      <p id="watermark" class="watermark">RANDOM USER GENERATOR</p>
+      <section class="section-1"></section>
+      <section class="section-2"></section>
+
+      <!-- Random user card -->
+      <div class="card">
+        <!-- card top-section -->
+        <div class="top-section">
+          <div id="user-image" class="img-circle-box">
+            <!-- <img src="images/jisan.jpg" alt="" /> -->
+          </div>
+          <p onclick="genrateNewUser()" class="new">Generate New user</p>
+        </div>
+        <!-- card bottom-section -->
+
+        <div class="bottom-section">
+          <div class="user-info">
+            <div id="user-name-div" class="user-info-inner user-name">
+              <h5>Hi, my name is</h5>
+              <h3 id="user-name"></h3>
+            </div>
+
+            <div id="user-email-div" class="user-info-inner user-email">
+              <h5>My Email address is</h5>
+              <h3 id="user-email"></h3>
+            </div>
+
+            <div id="user-phone-div" class="user-info-inner user-phone">
+              <h5>My phone number is</h5>
+              <h3 id="user-phone"></h3>
+            </div>
+
+            <div id="user-address-div" class="user-info-inner user-address">
+              <h5>My address is</h5>
+              <h3 id="user-address"></h3>
+            </div>
+          </div>
+
+          <div class="icon-area">
+            <div class="icon-inner">
+              <img
+                onclick="showUserName()"
+                src="../../images/random-user/user.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="icon-inner">
+              <img
+                onclick="showUserEmail()"
+                src="../../images/random-user/email.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="icon-inner">
+              <img
+                onclick="showUserPhone()"
+                src="../../images/random-user/phone.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="icon-inner">
+              <img
+                onclick="showUserLocation()"
+                src="../../images/random-user/map.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
