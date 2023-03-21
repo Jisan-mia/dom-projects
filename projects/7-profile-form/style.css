@@ -1,0 +1,246 @@
+@import "../../common-style.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  height: 100vh;
+}
+body {
+  background-color: #ffffff;
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  margin: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  justify-self: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  min-width: 200px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.form-header {
+  color: #000000;
+}
+
+form input,
+textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0.5rem 0.8rem;
+  color: #000000;
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+form input:focus,
+textarea {
+  outline: none;
+}
+textarea {
+  resize: vertical;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+  width: 10px;
+}
+.custom-file-input::before {
+  content: "Select Profile Image";
+  display: inline-block;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  text-shadow: 0.81px 0.81px #fff;
+  /* font-weight: 100; */
+  font-size: 0.8rem;
+  letter-spacing: 0.02rem;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+
+.btn {
+  background-color: #498afb;
+}
+
+.btn:active {
+  transform: scale(0.99);
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+/* profile design */
+
+#userProfile {
+  overflow-y: scroll;
+  padding: 10px 0;
+}
+#userProfile::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+#userProfile::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#userProfile::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.profile-info {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 500px;
+  padding: 20px 20px;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.demo-profile {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: rgb(0, 0, 0);
+  margin: 5px 10px;
+  cursor: pointer;
+  display: none;
+  transition: 3s;
+}
+.demo:hover .demo-profile {
+  display: block;
+}
+
+.profile-info:hover {
+  background-color: rgba(211, 211, 211, 0.185);
+  transform: translate(0, -10px);
+}
+.avatar {
+  border-right: 1.5px rgb(0, 0, 0) solid;
+  /* width: 100%; */
+}
+.avatar img {
+  margin-right: 30px;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px rgba(0, 0, 0, 0.849) solid;
+  padding: 0.12rem;
+}
+.profileName-flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.edit-delete-icon {
+  display: flex;
+}
+
+.profileName-flexbox i {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: none;
+  margin-left: 5px;
+}
+.profile-info:hover .profileName-flexbox i {
+  display: block;
+}
+
+.profile-info .info {
+  padding-left: 10px;
+  color: #000000;
+  width: 100%;
+}
+.info h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.info h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 5px;
+}
+.info p {
+  font-size: 0.9rem;
+}
+@media (max-width: 1050px) {
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  form {
+    width: 100%;
+    max-width: 100%;
+  }
+  .profile-info {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .avatar img {
+    margin-right: 15px;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .profile-info,
+  form {
+    padding: 15px 10px;
+    margin: 15px 0;
+  }
+
+  .profile-info .info {
+    padding-left: 8px;
+  }
+  .info h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 3px;
+  }
+  .info h3 {
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding-bottom: 3px;
+  }
+  .info p {
+    font-size: 0.7rem;
+  }
+}

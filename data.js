@@ -59,6 +59,16 @@ const projectList = [
     difficulty: "Advanced",
     tags: ['html', 'css', 'js']
   },
+   {
+    id: 7,
+    name: "Profile Form & Card",
+    description: "This is a dynamic form with profile card using JavaScript. Also one profile can be deleted.",
+    image: "https://user-images.githubusercontent.com/61211600/226736229-f285377e-80ea-445b-a494-989498c99536.png",
+    url: "./projects/7-profile-form/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
 ];
 
 export { projectList };

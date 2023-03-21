@@ -36,7 +36,7 @@ showTime(time);
 let todoLists = [];
 let id = 0;
 
-//get item from localStroage
+//get item from localStorage
 let storageData = localStorage.getItem("TODO");
 
 //check if localStorage data is empty or not
