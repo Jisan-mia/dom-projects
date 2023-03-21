@@ -39,6 +39,16 @@ const projectList = [
     difficulty: "Advanced",
     tags: ['html', 'css', 'js']
   },
+  {
+    id: 5,
+    name: "Morse Code Translator",
+    description: "It's easy to use Morse Code Translator, translate Morse code to text, and text to Morse code.",
+    image: "https://user-images.githubusercontent.com/61211600/226718850-e47538fa-6a18-40bd-be64-e815643636c7.png",
+    url: "./projects/5-morse-translator/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
 ];
 
 export { projectList };
