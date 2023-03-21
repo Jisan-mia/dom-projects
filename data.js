@@ -49,6 +49,16 @@ const projectList = [
     difficulty: "Advanced",
     tags: ['html', 'css', 'js']
   },
+  {
+    id: 6,
+    name: "Simple Todo App",
+    description: "It's a kinda TODO site where anyone can add todo, complete, and delete them. I've worked with the date object too in this project.",
+    image: "https://user-images.githubusercontent.com/61211600/226724474-648b6912-d04d-48fa-b8b0-d9ce226c4953.png",
+    url: "./projects/6-js-todo/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
 ];
 
 export { projectList };
