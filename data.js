@@ -79,6 +79,16 @@ const projectList = [
     difficulty: "Advanced",
     tags: ['html', 'css', 'js']
   },
+  {
+    id: 9,
+    name: "Weather App",
+    description: "It is a weather web app where user can see current weather by searching city name. I used an API for weather and developed in JavaScript.",
+    image: "https://user-images.githubusercontent.com/61211600/226870816-a5727d16-9734-4bea-9f1f-2058c1192640.png",
+    url: "./projects/9-weather-app/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
 ];
 
 export { projectList };
