@@ -89,6 +89,16 @@ const projectList = [
     difficulty: "Advanced",
     tags: ['html', 'css', 'js']
   },
+  {
+    id: 10,
+    name: "Testimonial Slider",
+    description: "Created this testimonials section of a website using JavaScript and it was really fun coding this project.",
+    image: "https://user-images.githubusercontent.com/61211600/226871813-30dbfa81-7975-438d-b6f8-bd432c99d318.png",
+    url: "./projects/10-testimonial-slider/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
 ];
 
 export { projectList };
