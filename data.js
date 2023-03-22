@@ -69,6 +69,36 @@ const projectList = [
     difficulty: "Advanced",
     tags: ['html', 'css', 'js']
   },
+  {
+    id: 8,
+    name: "PC Component Filtering",
+    description: "It is a filtering web app using JavaScript. There are some computer parts which user can filter and know about specific part of a computer like input devices, output devices etc.",
+    image: "https://user-images.githubusercontent.com/61211600/226866923-a7be7817-aa6f-45eb-9ce3-9ead695c999e.png",
+    url: "./projects/8-pc-component-filter/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
+  {
+    id: 9,
+    name: "Weather App",
+    description: "It is a weather web app where user can see current weather by searching city name. I used an API for weather and developed in JavaScript.",
+    image: "https://user-images.githubusercontent.com/61211600/226870816-a5727d16-9734-4bea-9f1f-2058c1192640.png",
+    url: "./projects/9-weather-app/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
+  {
+    id: 10,
+    name: "Testimonial Slider",
+    description: "Created this testimonials section of a website using JavaScript and it was really fun coding this project.",
+    image: "https://user-images.githubusercontent.com/61211600/226871813-30dbfa81-7975-438d-b6f8-bd432c99d318.png",
+    url: "./projects/10-testimonial-slider/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
 ];
 
 export { projectList };
