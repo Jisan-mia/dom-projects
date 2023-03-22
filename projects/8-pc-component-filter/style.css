@@ -1,0 +1,34 @@
+@import "../../common-style.css";
+
+body {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+section {
+}
+
+.card img {
+  cursor: pointer;
+  padding: 7px;
+}
+
+.card .card-header p {
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 0 9px 3px rgba(0, 0, 0, 0.1);
+  border: none;
+  overflow: hidden;
+}
+
+.filter-btn-div .btn.active {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+@media (max-width: 325px) {
+  .filter-btn-div .filter-btn {
+    font-size: 14px !important;
+  }
+}

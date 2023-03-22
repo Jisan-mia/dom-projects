@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>PC Component Filter | DOM Projects</title>
+  </head>
+  <body>
+    <section class="main-section">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col-10 mx-auto col-sm-6 text-center mt-2">
+            <h1>PC COMPONENT</h1>
+          </div>
+        </div>
+        <!-- filter button -->
+        <div class="row">
+          <div
+            class="col-lg-8 mx-auto d-flex justify-content-around flex-wrap m-2 filter-btn-div"
+          >
+            <a
+              href="#"
+              class="btn active btn-outline-primary text-uppercase filter-btn m-2"
+              data-filter="all"
+              >All</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-primary text-uppercase filter-btn m-2"
+              data-filter="cpu"
+              >CPU</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-primary text-uppercase filter-btn m-2"
+              data-filter="memory"
+              >Memory</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-primary text-uppercase filter-btn m-2"
+              data-filter="mobo"
+              >Motherboard</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-primary text-uppercase filter-btn m-2"
+              data-filter="os"
+              >OS</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-primary text-uppercase filter-btn m-2"
+              data-filter="input-device"
+              >Input Devices</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-primary text-uppercase filter-btn m-2"
+              data-filter="ouput-device"
+              >Ouput Devices</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-primary text-uppercase filter-btn m-2"
+              data-filter="software"
+              >Software</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-primary text-uppercase filter-btn m-2"
+              data-filter="others"
+              >Others</a
+            >
+          </div>
+        </div>
+        <!-- search box -->
+        <div class="row">
+          <div class="col-10 mx-auto col-md-6">
+            <form>
+              <div class="input-group-prepend mb-3">
+                <input
+                  id="search-item"
+                  type="text"
+                  class="form-control"
+                  placeholder="Search item"
+                />
+                <span class="search-box btn btn-success">Search</span>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- items list -->
+        <div class="row">
+          <!-- memory -->
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component memory"
+            data-item="memory"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/memory/hdd.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">HDD</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component memory"
+            data-item="memory"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/memory/ssd.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">SSD</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component memory"
+            data-item="memory"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/memory/m.2.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">M.2 NVMe</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component memory"
+            data-item="memory"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/memory/ram.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">RAM</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- cpu  -->
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component cpu"
+            data-item="cpu"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/cpu/intel.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">INTEL</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component cpu"
+            data-item="cpu"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/cpu/amd.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">AMD</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- operating system -->
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component os"
+            data-item="os"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/os/microsoft.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">MICROSOFT WINDOWS</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component os"
+            data-item="os"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/os/linux.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">LINUX</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component os"
+            data-item="os"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/os/mac.png"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">MAC</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- input devices -->
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component input-device"
+            data-item="input-device"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/input/mouse.png"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">MOUSE</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component input-device"
+            data-item="input-device"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/input/keyboard.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">KEYBOARD</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component input-device"
+            data-item="input-device"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/input/mic.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">MICROPHONE</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- output devices -->
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component ouput-device"
+            data-item="ouput-device"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/ouput/monitor.png"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">MONITOR</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component ouput-device"
+            data-item="ouput-device"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/ouput/printer.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">PRINTERS</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component ouput-device"
+            data-item="ouput-device"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/ouput/projector.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">PROJECTOR</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component ouput-device"
+            data-item="ouput-device"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/ouput/speaker.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">SPEAKER</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- motherboard -->
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component mobo"
+            data-item="mobo"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/mobo/gigabyte.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">GIGABYTE</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component mobo"
+            data-item="mobo"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/mobo/msi.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">MSI</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component mobo"
+            data-item="mobo"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/mobo/asrock.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">ASROCK</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- software -->
+
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component software"
+            data-item="software"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/soft/application.png"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">APPLICATION SOFTWARES</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component software"
+            data-item="software"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/soft/system.png"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">SYSTEM SOFTWARE</p>
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- others component -->
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component others"
+            data-item="others"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/others/psu.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">PSU</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component others"
+            data-item="others"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/others/graphics.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">GRAPHICS CARD</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component others"
+            data-item="others"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/others/flash-drive.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">FLASH DRIVE</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component others"
+            data-item="others"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/others/casing.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">CASING</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component others"
+            data-item="others"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/others/dvd.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">DVD</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component others"
+            data-item="others"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/others/cooler.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">CPU COOLER</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-lg-3 mx-auto my-3 component others"
+            data-item="others"
+          >
+            <div class="card">
+              <img
+                class="img-fluid rounded card-img-top"
+                src="./images/others/ups.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-header pb-0">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <p class="card-text pr-3">UPS</p>
+
+                  <a href="#" class="">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
