@@ -99,6 +99,16 @@ const projectList = [
     difficulty: "Advanced",
     tags: ['html', 'css', 'js']
   },
+  {
+    id: 11,
+    name: "Animation on Scroll",
+    description: "I use the scroll event in this project. Basically when you scroll down new content will show up with animation.",
+    image: "https://user-images.githubusercontent.com/61211600/227279125-a59654b2-ce56-4365-bd3e-f115cb8c8dec.png",
+    url: "./projects/11-animation-on-scroll/",
+    github: "",
+    difficulty: "Junior",
+    tags: ['html', 'css', 'js']
+  },
 ];
 
 export { projectList };

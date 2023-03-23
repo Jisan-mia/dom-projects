@@ -1,0 +1,51 @@
+@import "../../common-style.css";
+
+body {
+  background-color: rgb(223, 223, 223);
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 3px solid black;
+  padding-bottom: 8px;
+  padding-top: 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background-color: rgb(223, 223, 223);
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  padding-top: 70px;
+  overflow-x: hidden;
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 6px;
+  width: 300px;
+  min-width: 120px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.box.show {
+  transform: translateX(0);
+}
