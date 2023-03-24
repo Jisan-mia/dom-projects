@@ -15,7 +15,7 @@ h2 {
   background-color: rgb(223, 223, 223);
 }
 
-.boxes {
+.search {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
@@ -27,7 +27,7 @@ h2 {
   overflow-x: hidden;
 }
 
-.box {
+.search .input_field {
   border: 2px solid black;
   border-radius: 6px;
   width: 300px;
@@ -42,10 +42,5 @@ h2 {
   transition: transform 0.4s ease;
 }
 
-.box:nth-of-type(even) {
-  transform: translateX(-400%);
-}
-
-.box.show {
-  transform: translateX(0);
+.search.active .input_field {
 }
