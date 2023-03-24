@@ -1,18 +1,18 @@
 @import "../../common-style.css";
 
 body {
-  background-color: rgb(223, 223, 223);
+  background-color: #f8f9fc;
 }
 
 h2 {
   text-align: center;
-  border-bottom: 3px solid black;
+  border-bottom: 1px solid lightgray;
   padding-bottom: 8px;
   padding-top: 25px;
   position: fixed;
   width: 100%;
   z-index: 99;
-  background-color: rgb(223, 223, 223);
+  background-color: #f8f9fc;
 }
 
 .boxes {
@@ -23,7 +23,7 @@ h2 {
   width: 100%;
   align-items: center;
   padding: 20px;
-  padding-top: 70px;
+  padding-top: 75px;
   overflow-x: hidden;
 }
 
