@@ -109,6 +109,16 @@ const projectList = [
     difficulty: "Junior",
     tags: ['html', 'css', 'js']
   },
+  {
+    id: 12,
+    name: "Search Field Reveal",
+    description: "A simple implementation of classList toggle method. Also, css transition and transform property were utilized for animation",
+    image: "https://user-images.githubusercontent.com/61211600/227615484-5e2f0e38-9542-47c6-9d5d-cb4e6e3e33d1.png",
+    url: "./projects/12-search-field-reveal/",
+    github: "",
+    difficulty: "Junior",
+    tags: ['html', 'css', 'js']
+  },
 ];
 
 export { projectList };
