@@ -11,6 +11,7 @@
 9. [Weather App](#weather-app)
 10. [Testimonial Slider](#testionial-slider)
 11. [Animation on Scroll](#animation-on-scroll)
+12. [Search Field Reveal](#search-field-reveal)
 
 ---
 
@@ -77,3 +78,7 @@
 ### Animation on Scroll
 
 - I use the scroll event in this project. Basically when you scroll down new content will show up with animation.
+
+### Search Field Reveal
+
+- A simple implementation of classList toggle method. Also, css transition and transform property were utilized for animation.
