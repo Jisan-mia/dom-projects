@@ -112,8 +112,8 @@ const projectList = [
   {
     id: 12,
     name: "Search Field Reveal",
-    description: "I use the scroll event in this project. Basically when you scroll down new content will show up with animation.",
-    image: "https://user-images.githubusercontent.com/61211600/227279125-a59654b2-ce56-4365-bd3e-f115cb8c8dec.png",
+    description: "A simple implementation of classList toggle method. Also, css transition and transform property were utilized for animation",
+    image: "https://user-images.githubusercontent.com/61211600/227615484-5e2f0e38-9542-47c6-9d5d-cb4e6e3e33d1.png",
     url: "./projects/12-search-field-reveal/",
     github: "",
     difficulty: "Junior",
