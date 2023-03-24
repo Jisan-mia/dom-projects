@@ -50,6 +50,36 @@ const projectList = [
     tags: ['html', 'css', 'js']
   },
   {
+    id: 14,
+    name: "Basic Calculator",
+    description: "Calculator app",
+    image: "https://user-images.githubusercontent.com/61211600/227633269-a810ced9-0f51-47b2-bdcb-4390071a02cd.png",
+    url: "./projects/14-basic-calculator/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
+  {
+    id: 15,
+    name: "Normal Calculator",
+    description: "It's a kinda TODO site where anyone can add todo, complete, and delete them. I've worked with the date object too in this project.",
+    image: "https://user-images.githubusercontent.com/61211600/226724474-648b6912-d04d-48fa-b8b0-d9ce226c4953.png",
+    url: "./projects/15-normal-calculator/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
+  {
+    id: 16,
+    name: "Scientific Calculator",
+    description: "It's a kinda TODO site where anyone can add todo, complete, and delete them. I've worked with the date object too in this project.",
+    image: "https://user-images.githubusercontent.com/61211600/226724474-648b6912-d04d-48fa-b8b0-d9ce226c4953.png",
+    url: "./projects/16-scientific-calculator/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['html', 'css', 'js']
+  },
+  {
     id: 6,
     name: "Simple Todo App",
     description: "It's a kinda TODO site where anyone can add todo, complete, and delete them. I've worked with the date object too in this project.",

@@ -1,0 +1,267 @@
+@import "../../../common-style.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  background-origin: padding-box;
+}
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+  font-size: 16px;
+  height: 100%;
+}
+body {
+  background-color: #f7f7f7;
+  background-image: url("../img/bg4.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 25px);
+}
+
+.calc-cotnainer {
+  width: 350px;
+
+  height: auto;
+  background: #fff;
+
+  border-radius: 30px;
+  box-shadow: 0 15px 53px 14px rgba(48, 81, 85, 0.1);
+}
+
+.output {
+  width: 100%;
+  background: #345b82;
+  margin-bottom: 10px;
+}
+
+.operation {
+  width: 100%;
+  height: 85px;
+
+  color: #f3ededb2;
+
+  font-size: 1.3em;
+  font-weight: bold;
+
+  position: relative;
+  overflow: hidden;
+}
+.operation .value {
+  position: absolute;
+  opacity: 0.9;
+  bottom: 25px;
+  right: 15px;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.result {
+  width: 100%;
+  height: 100px;
+
+  color: #f1f1f1;
+
+  font-size: 1.7em;
+  font-weight: bold;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.result .value {
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.calc-switcher {
+  display: flex;
+  border-bottom: 1px solid rgba(7, 24, 104, 0.726);
+  margin: 0 15px;
+  padding-bottom: 8px;
+}
+
+.calc-switcher div {
+  margin-right: 10px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: rgba(255, 17, 0, 0.562);
+  cursor: pointer;
+  opacity: 0.8;
+  font-weight: 500;
+}
+.calc-switcher div:hover {
+  color: rgb(255, 17, 0);
+}
+.calc-switcher div.active-calc {
+  color: rgb(255, 17, 0);
+  font-weight: 700;
+}
+
+.input {
+  /* background-color: #fff; */
+
+  border-radius: 0 0 25px 25px;
+  height: 100%;
+  padding-bottom: 10px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row button {
+  width: 42px;
+  height: 42px;
+
+  font-size: 1.1em;
+
+  border: none;
+  outline: none;
+  border-radius: 10px 10px;
+  background-color: transparent;
+
+  margin: 5px;
+
+  cursor: pointer;
+  color: #474141;
+  background-color: #334ddf13;
+  transition: all 0.1s ease-in-out;
+}
+
+.row button:hover {
+  font-weight: bold;
+}
+
+.row #calculate {
+  color: #fff;
+  background-color: #46e0bc;
+  width: 111px;
+  border-radius: 50px;
+}
+.row #delete {
+  color: #fff;
+  background-color: #e05046;
+}
+
+#comma {
+  font-size: 2rem;
+}
+
+#multiplication,
+#subtraction,
+#addition,
+#division,
+#clear {
+  /* color: #a5a5a5; */
+  /* background-color: #f3f3f3; */
+  background-color: #fc9507;
+  color: white;
+}
+
+.input button span {
+  font-size: 0.6em;
+  position: absolute;
+}
+
+.active-angle {
+  background-color: #1d1d1db2 !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+}
+
+.advance-keys button {
+  color: rgb(243, 128, 34);
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: 45px;
+  height: 30px;
+  transition: all 0.2s ease-in-out;
+}
+.advance-keys button:hover {
+  font-weight: 800;
+}
+/* #D05D66 */
+/* disable button */
+.advance-keys button:disabled {
+  /* background: ; */
+  opacity: 0.6;
+  color: rgba(243, 128, 34, 0.829);
+  cursor: default;
+}
+.advance-keys button:disabled:hover {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* footer design */
+
+footer p {
+  font-size: 13.86px;
+  text-align: center;
+  color: gray;
+}
+
+footer p a {
+  text-decoration: none;
+  color: rgb(255, 65, 7);
+}
+
+@media (max-width: 400px) {
+  .calc-cotnainer {
+    max-width: 300px;
+    min-width: 250px;
+
+    border-radius: 20px;
+  }
+  .row button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    outline: none;
+  }
+  .advance-keys button {
+    font-weight: 600;
+    width: 40px;
+    height: 25px;
+  }
+
+  .result {
+    height: 80px;
+  }
+  .row #calculate {
+    width: 100px;
+    border-radius: 50px;
+  }
+
+  html {
+    font-size: 13px;
+  }
+}

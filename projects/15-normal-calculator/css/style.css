@@ -1,0 +1,151 @@
+@import "../../../common-style.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  background-origin: padding-box;
+}
+
+html,
+html {
+  font-size: 16px;
+  height: 100%;
+}
+body {
+  background-color: #f7f7f7;
+  background-image: url("../img/bg4.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.calculator {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.calc-container {
+  background-color: #ffffff;
+
+  width: 300px;
+  height: auto;
+
+  border-radius: 30px 30px;
+  box-shadow: 0 15px 53px 14px rgb(0 0 0 / 10%);
+}
+
+.output {
+  width: 100%;
+}
+
+.operation {
+  width: 300px;
+  height: 70px;
+
+  color: #878787;
+
+  font-size: 1.9em;
+  font-weight: bold;
+
+  position: relative;
+  overflow: hidden;
+}
+.operation .value {
+  position: absolute;
+
+  bottom: 5px;
+  right: 10px;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.result {
+  width: 300px;
+  height: 140px;
+
+  color: #696969;
+
+  font-size: 2.7em;
+  font-weight: bold;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.result .value {
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.input {
+  /* background-color: #fff; */
+
+  border-radius: 0 0 25px 25px;
+  height: 340px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row button {
+  width: 50px;
+  height: 50px;
+
+  font-size: 1.5em;
+
+  border: none;
+  border-radius: 15px 15px;
+  background-color: transparent;
+
+  margin: 8px;
+
+  cursor: pointer;
+  color: #a5a5a5;
+  background-color: #f3f3f3;
+}
+
+.row button:hover {
+  font-weight: bold;
+}
+
+.row #calculate {
+  color: #fff;
+  background-color: #46e0bc;
+  width: 121px;
+  border-radius: 50px;
+}
+.row #delete {
+  color: #fff;
+  background-color: #e05046;
+}
+
+#division,
+#multiplication,
+#subtraction,
+#addition,
+#clear,
+#percent {
+  /* color: #a5a5a5; */
+  /* background-color: #f3f3f3; */
+  background-color: #fc9507;
+  color: white;
+}
