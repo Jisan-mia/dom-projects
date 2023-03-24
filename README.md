@@ -12,6 +12,7 @@
 10. [Testimonial Slider](#testionial-slider)
 11. [Animation on Scroll](#animation-on-scroll)
 12. [Search Field Reveal](#search-field-reveal)
+13. [Question List & Progress](#question-list-and-progress)
 
 ---
 
@@ -82,3 +83,7 @@
 ### Search Field Reveal
 
 - A simple implementation of classList toggle method. Also, css transition and transform property were utilized for animation.
+
+### Question List and Progress
+
+- This javascript project utilizes common use cases of DOM APIs like selecting elements, creating element, and updating the ui.

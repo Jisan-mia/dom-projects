@@ -119,6 +119,16 @@ const projectList = [
     difficulty: "Junior",
     tags: ['html', 'css', 'js']
   },
+  {
+    id: 13,
+    name: "Question List & Progress",
+    description: "This javascript project utilizes common use cases of DOM APIs like selecting elements, creating element, and updating the ui.",
+    image: "https://user-images.githubusercontent.com/61211600/227620473-ceb4aedb-07ff-4e19-b9e5-9ff5d26358d0.png",
+    url: "./projects/13-question-list-progress/",
+    github: "",
+    difficulty: "Junior",
+    tags: ['html', 'css', 'js']
+  },
 ];
 
 export { projectList };
