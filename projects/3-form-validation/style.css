@@ -1,8 +1,6 @@
 @import "../../common-style.css";
 
 :root {
-  --myfont: "Fira Code", sans-serif;
-  --my-btn-font: "Fira Code", sans-serif;
   --lg-lightcolor: linear-gradient(
     to left,
     rgba(116, 235, 0.6),
@@ -10,9 +8,8 @@
   );
 }
 body {
-  background-color: rgba(142, 145, 105, 0.12);
+  background-color: #f8f9fc;
 
-  font-family: var(--myfont);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +33,6 @@ body {
 
 .header h2 {
   color: white;
-  font-family: var(--my-btn-font);
   font-size: 24px;
   text-transform: uppercase;
   text-align: center;
@@ -58,7 +54,6 @@ body {
   border: 2px solid #f0f0f0;
   border-radius: 5px;
   display: block;
-  font-family: var(--myfont);
   font-size: 14px;
   padding: 10px;
 }
@@ -112,7 +107,6 @@ body {
   outline: none;
   color: #fff;
   display: block;
-  font-family: var(--my-btn-font);
   font-size: 16px;
   padding: 11px 0;
   margin-top: 30px;
@@ -154,7 +148,6 @@ body {
   outline: none;
   color: #fff;
   display: block;
-  font-family: var(--my-btn-font);
   font-size: 16px;
   padding: 11px 0;
   margin-top: 20px;

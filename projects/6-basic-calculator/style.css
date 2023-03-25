@@ -1,0 +1,57 @@
+@import "../../common-style.css";
+
+body {
+  background: #f8f9fc;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 420px;
+  /* height: 410px; */
+  /*color: white;*/
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+select,
+input {
+  margin-bottom: 15px;
+}
+select {
+  background-color: #0563af;
+  color: white;
+  padding: 3px;
+  border: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius: 3px;
+}
+
+#result {
+  height: 45px;
+  width: 100%;
+  background-color: rgba(248, 248, 212, 0.63);
+  border-radius: 6px;
+  margin-bottom: 12px;
+  border: 1px solid black;
+}
+#result p {
+  line-height: 45px;
+  padding-left: 10px;
+  font-weight: 700;
+}
+@media (max-width: 500px) {
+  form {
+    max-width: 100%;
+  }
+}

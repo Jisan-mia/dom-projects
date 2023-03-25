@@ -1,20 +1,27 @@
 ### List of DOM Projects
 
-1. [Counter](#counter)
-2. [DadJokes](#dadjokes)
-3. [Form Validation](#form-validation)
-4. [Random User](#random-user)
-5. [Morse Code Translator](#morse-code-translator)
-6. [Simple Todo App](#simple-todo-app)
-7. [Profile Form & Card](#profile-form-and-card)
-8. [PC Component Filtering](#pc-component-filtering)
-9. [Weather App](#weather-app)
-10. [Testimonial Slider](#testionial-slider)
-11. [Animation on Scroll](#animation-on-scroll)
-12. [Search Field Reveal](#search-field-reveal)
-13. [Question List & Progress](#question-list-and-progress)
+|  #  | Project                                                                                                            | Live Demo                                                                                | Details                             |
+| :-: | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ----------------------------------- |
+| 01  | [Counter](https://github.com/Jisan-mia/dom-projects/tree/main/projects/1-counter)                                  | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/1-counter/)                | [More](#counter)                    |
+| 02  | [DadJokes](https://github.com/Jisan-mia/dom-projects/tree/main/projects/2-dad-jokes)                               | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/2-dad-jokes)               | [More](#dadjokes)                   |
+| 03  | [Form Validation](https://github.com/Jisan-mia/dom-projects/tree/main/projects/3-form-validation)                  | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/3-form-validation)         | [More](#form-validation)            |
+| 04  | [Random User](https://github.com/Jisan-mia/dom-projects/tree/main/projects/4-random-user)                          | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/4-random-user)             | [More](#random-user)                |
+| 05  | [Morse Code Translator](https://github.com/Jisan-mia/dom-projects/tree/main/projects/5-morse-translator)           | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/5-morse-translator)        | [More](#morse-code-translator)      |
+| 06  | [Basic Calculator](https://github.com/Jisan-mia/dom-projects/tree/main/projects/6-basic-calculator)                | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/6-basic-calculator)        | [More](#basic-calculator)           |
+| 07  | [Normal Calculator](https://github.com/Jisan-mia/dom-projects/tree/main/projects/7-normal-calculator)              | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/7-normal-calculator)       | [More](#normal-calculator)          |
+| 08  | [Scientific Calculator](https://github.com/Jisan-mia/dom-projects/tree/main/projects/8-scientific-calculator)      | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/8-scientific-calculator)   | [More](#scientific-calculator)      |
+| 09  | [Simple Todo App](https://github.com/Jisan-mia/dom-projects/tree/main/projects/9-js-todo)                          | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/9-js-todo)                 | [More](#simple-todo-app)            |
+| 10  | [Profile Form & Card](https://github.com/Jisan-mia/dom-projects/tree/main/projects/10-profile-form)                | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/10-profile-form)           | [More](#profile-form-and-card)      |
+| 11  | [PC Component Filtering](https://github.com/Jisan-mia/dom-projects/tree/main/projects/11-pc-component-filter)      | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/11-pc-component-filter)    | [More](#pc-component-filtering)     |
+| 12  | [Weather App](https://github.com/Jisan-mia/dom-projects/tree/main/projects/12-weather-app)                         | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/12-weather-app)            | [More](#weather-app)                |
+| 13  | [Testimonial Slider](https://github.com/Jisan-mia/dom-projects/tree/main/projects/13-testimonial-slider)           | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/13-testimonial-slider)     | [More](#testionial-slider)          |
+| 14  | [Animation on Scroll](https://github.com/Jisan-mia/dom-projects/tree/main/projects/14-animation-on-scroll)         | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/14-animation-on-scroll)    | [More](#animation-on-scroll)        |
+| 15  | [Search Field Reveal](https://github.com/Jisan-mia/dom-projects/tree/main/projects/15-search-field-reveal)         | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/15-search-field-reveal)    | [More](#search-field-reveal)        |
+| 16  | [Question List & Progress](https://github.com/Jisan-mia/dom-projects/tree/main/projects/15-question-list-progress) | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/15-question-list-progress) | [More](#question-list-and-progress) |
 
 ---
+
+## Project Details
 
 ### Counter
 
@@ -45,6 +52,18 @@
 - It's easy to use Morse Code Translator, translate Morse code to text, and text to Morse code.
 
 ---
+
+### Basic Calculator
+
+- JavaScript Basic Calculator
+
+### Normal Calculator
+
+- JavaScript Normal Calculator
+
+### Scientific Calculator
+
+- JavaScript Scientific Calculator
 
 ### Simple Todo App
 

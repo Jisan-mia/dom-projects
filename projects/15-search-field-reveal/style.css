@@ -1,7 +1,7 @@
 @import "../../common-style.css";
 
 body {
-  background-color: #d4d3d3;
+  background-color: #f8f9fc;
 }
 
 h2 {
@@ -32,7 +32,7 @@ h2 {
   padding: 10px;
   outline: none;
   font-size: 1rem;
-  border: 2px solid lightgray;
+  border: 1px solid lightgray;
   border-radius: 6px;
   width: 50px;
   display: flex;
@@ -42,6 +42,7 @@ h2 {
   background-color: #fff;
   font-family: "Fira Code", sans-serif;
   transition: width 0.4s ease;
+  box-shadow: 5px 5px 8px rgba(190, 189, 189, 0.726);
 }
 
 .search.active .search_input {
