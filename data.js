@@ -159,6 +159,16 @@ const projectList = [
     difficulty: "Junior",
     tags: ['html', 'css', 'js']
   },
+  {
+    id: 17,
+    name: "Kinetic CSS Loader",
+    description: "Small loader project with CSS animation",
+    image: "https://user-images.githubusercontent.com/61211600/227620473-ceb4aedb-07ff-4e19-b9e5-9ff5d26358d0.png",
+    url: "./projects/17-kinetic-loader/",
+    github: "",
+    difficulty: "Junior",
+    tags: ['css', 'animation']
+  },
 ];
 
 export { projectList };
