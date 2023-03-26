@@ -163,7 +163,7 @@ const projectList = [
     id: 17,
     name: "Kinetic CSS Loader",
     description: "Small loader project with CSS animation",
-    image: "https://user-images.githubusercontent.com/61211600/227620473-ceb4aedb-07ff-4e19-b9e5-9ff5d26358d0.png",
+    image: "https://user-images.githubusercontent.com/61211600/227793715-2e84af9e-e090-479d-98a0-83aef4fa612a.png",
     url: "./projects/17-kinetic-loader/",
     github: "",
     difficulty: "Junior",
