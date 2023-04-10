@@ -1,0 +1,156 @@
+@import "../../common-style.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ecf1fa;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.primary-button {
+  background-color: #5771eb;
+  color: #f5f7fe;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: #5771eb 0px 12px 28px -15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.primary-button:hover {
+  background-color: #3150e0;
+}
+
+.primary-button:active {
+  transform: scale(0.99);
+}
+
+.primary-button:focus {
+  outline: none;
+}
+
+.modal-wrapper {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  /* background: rgba(0,0,0,0.5); */
+  z-index: 1;
+  display: none;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+.modal-content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+
+  width: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 22px;
+  right: 12px;
+
+  font-size: 30px;
+  line-height: 0;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  transition: all 0.15s ease-in-out;
+}
+.modal-close-btn:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+/* animation */
+@keyframes slideIn {
+  from {
+    top: 60%;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.subscribe-content {
+  color: #242e4c;
+  display: flex;
+  flex-direction: column;
+  gap: 0.91rem;
+}
+
+.subscribe-content h2 {
+  font-weight: 700;
+  font-size: 1.7rem;
+  opacity: 0.9;
+  max-width: 80%;
+}
+
+.subscribe-content p {
+  font-weight: 500;
+  opacity: 0.9;
+  font-size: 1.1rem;
+  max-width: 95%;
+}
+#subscribe-form {
+  display: flex;
+  gap: 0.5em;
+  margin-top: 15px;
+}
+
+#subscribe-form input[type="email"] {
+  flex: 1;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+#subscribe-form input[type="email"]:focus {
+  outline: none;
+  border-color: blue;
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    padding: 20px;
+    width: 80%;
+  }
+}
