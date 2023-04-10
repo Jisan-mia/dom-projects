@@ -169,6 +169,16 @@ const projectList = [
     difficulty: "Junior",
     tags: ['css', 'animation']
   },
+   {
+    id: 18,
+    name: "Modal",
+    description: "News letter call to action Modal",
+    image: "https://user-images.githubusercontent.com/61211600/230961621-578d44cb-dc62-4d30-be56-06a28b51a1ed.png",
+    url: "./projects/18-modal/",
+    github: "",
+    difficulty: "Junior",
+    tags: ['css', 'js']
+  },
 ];
 
 export { projectList };
