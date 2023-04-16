@@ -1,0 +1,110 @@
+@import "../../common-style.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 475px;
+  margin: 0 auto;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 128px auto 50px 80px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px 0px;
+}
+
+header {
+  padding: 15px;
+  background-color: antiquewhite;
+  border-bottom: 1px solid lightgray;
+}
+
+.filter-section {
+  padding: 10px 15px;
+  display: flex;
+  gap: 0.5rem;
+  border-top: 1px solid lightgray;
+}
+
+ul.list {
+  padding: 15px;
+  overflow-y: auto;
+}
+
+ul li.list-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1rem;
+  padding: 8px 0;
+  border-bottom: 1px solid lightgray;
+  align-content: center;
+  justify-content: space-between;
+}
+
+ul li.list-item:last-child {
+  border-bottom-color: transparent;
+}
+
+ul li.list-item button {
+  font-size: 0.9rem;
+  padding: 3px px;
+}
+
+.list-item .todo-actions {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.list-item-label:hover [data-list-item-text] {
+  text-decoration: line-through;
+  color: #333;
+}
+.list-item-label:hover,
+[data-list-item-checkbox]:hover {
+  cursor: pointer;
+}
+
+[data-list-item-checkbox]:checked ~ [data-list-item-text] {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+form.todo-form {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 100%;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+  border-top: 1px solid lightgray;
+}
+
+input {
+  font-size: 1rem;
+  padding: 5px 15px;
+  height: 100%;
+}
+
+.empty-msg {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.active-filter {
+  background-color: #ccc;
+}
+
+button {
+  padding: 5px 15px;
+  height: 100%;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid lightgray;
+  background-color: rgb(255, 251, 245);
+}

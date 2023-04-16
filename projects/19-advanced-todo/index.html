@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../../favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../../favicon/site.webmanifest" />
+    <title>Advanced Todo | DOM Projects</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Todo</h1>
+      <p>List your work that need to be done on time.</p>
+    </header>
+
+    <ul class="list"></ul>
+
+    <div class="filter-section">
+      <button data-role="all">All Todo</button>
+      <button data-role="active">Active Todo</button>
+      <button data-role="completed">Completed Todo</button>
+    </div>
+
+    <form class="todo-form">
+      <input type="text" id="todo-input" placeholder="add new todo" />
+      <button type="submit">Add Todo</button>
+    </form>
+
+    <template id="list-item-template">
+      <li class="list-item">
+        <label class="list-item-label">
+          <input type="checkbox" data-list-item-checkbox />
+          <span data-list-item-text>some todo</span>
+        </label>
+
+        <div class="todo-actions">
+          <button class="delete-todo">Delete</button>
+          <button class="edit-todo">Edit</button>
+        </div>
+      </li>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>

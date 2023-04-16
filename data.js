@@ -179,6 +179,16 @@ const projectList = [
     difficulty: "Junior",
     tags: ['css', 'js']
   },
+   {
+    id: 19,
+    name: "Advanced Todo",
+    description: "An advanced to web application with todo state filtering and edit/delete functionality",
+    image: "https://user-images.githubusercontent.com/61211600/232296779-a7c4af29-14ac-444d-bfd1-c51f7ede3a63.png",
+    url: "./projects/19-advanced-todo/",
+    github: "",
+    difficulty: "Advanced",
+    tags: ['css', 'js', 'web-api']
+  },
 ];
 
 export { projectList };
