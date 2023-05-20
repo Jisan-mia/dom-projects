@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../../favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../../favicon/site.webmanifest" />
+    <title>Retro Calculator | DOM Projects</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- badge -->
+      <div class="badge">
+        <div class="badge-item red"></div>
+        <div class="badge-item yellow"></div>
+        <div class="badge-item blue"></div>
+      </div>
+
+      <div class="output">
+        <div data-primary-operand class="primary-operand input"></div>
+        <div class="history">
+          <div data-secondary-operand class="secondary-operand result"></div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button data-all-clear>C</button>
+        <button data-delete>D</button>
+        <button data-operation>^</button>
+        <button data-operation>÷</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>×</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>-</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>+</button>
+        <button data-number class="span-two">0</button>
+        <button data-number>.</button>
+        <button data-equals>=</button>
+      </div>
+    </div>
+    <script src="./js/script.js" type="module"></script>
+  </body>
+</html>
