@@ -126,8 +126,6 @@ button:active {
   box-shadow: 0px 0px 0px 0px #877f79;
   transform: translate(2px, 2px);
 }
-button:hover {
-}
 
 .span-two {
   grid-column: span 2;
