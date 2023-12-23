@@ -5,6 +5,11 @@ html {
   scroll-padding-top: 57px;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
@@ -283,6 +288,53 @@ section.hero {
 .tags .general-tag {
   color: rgb(74, 219, 74);
 }
+
+/* footer styles */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  /* border-top: 1px solid black; */
+}
+
+footer span {
+  color: #666;
+  font-size: 14px;
+}
+
+footer span a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer span .fa {
+  color: #E90606;
+  margin: 0 3px;
+  font-size: 10px;
+  animation: pound .35s infinite alternate;
+  -webkit-animation: pound .35s infinite alternate
+}
+
+
+@-webkit-keyframes pound {
+  to {
+
+    transform: scale(1.1)
+  }
+}
+
+
+
+@keyframes pound {
+  to {
+
+    transform: scale(1.1)
+  }
+}
+
+
 
 @media (max-width: 768px) {
   section {
