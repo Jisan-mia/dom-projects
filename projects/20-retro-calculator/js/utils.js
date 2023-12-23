@@ -37,8 +37,6 @@ const operatorSymbols  = [
 ]
 
 export {
-  displayOutputResultNumber,
-  supportedKeyboardKeys,
-  operatorSymbols
+  displayOutputResultNumber, operatorSymbols, supportedKeyboardKeys
 };
 
