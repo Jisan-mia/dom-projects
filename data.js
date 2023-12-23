@@ -3,7 +3,8 @@ const projectList = [
     id: 1,
     name: "Counter",
     description: "A simple counter project with reset counter functionality.",
-    image: "./1.jpg",
+    image:
+      "https://github.com/Jisan-mia/dom-projects/assets/61211600/872cf2c7-7edd-4d36-9757-9a33366c9f73",
     url: "./projects/1-counter/",
     github:
       "https://github.com/Jisan-mia/dom-projects/tree/main/projects/1-counter",
@@ -217,7 +218,7 @@ const projectList = [
   {
     id: 18,
     name: "Modal",
-    description: "News letter call to action Modal",
+    description: "Newsletter call to action Modal",
     image:
       "https://user-images.githubusercontent.com/61211600/230961621-578d44cb-dc62-4d30-be56-06a28b51a1ed.png",
     url: "./projects/18-modal/",

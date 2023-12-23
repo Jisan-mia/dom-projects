@@ -100,14 +100,38 @@
 
 - I use the scroll event in this project. Basically when you scroll down new content will show up with animation.
 
+---
+
 ### Search Field Reveal
 
 - A simple implementation of classList toggle method. Also, css transition and transform property were utilized for animation.
+
+---
 
 ### Question List and Progress
 
 - This javascript project utilizes common use cases of DOM APIs like selecting elements, creating element, and updating the ui.
 
+---
+
 ### Kinetic CSS Loader
 
 - Small loader project with CSS animation
+
+---
+
+### Modal
+
+- Newsletter call to action Modal
+
+---
+
+### Advanced Todo
+
+- An advanced to web application with todo state filtering and edit/delete functionality
+
+---
+
+### Retro Calculator
+
+- A Retro Style classic calculator web project with physical keyboard supported.
