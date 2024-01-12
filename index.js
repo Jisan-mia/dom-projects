@@ -31,7 +31,7 @@ function getProjectLinks(project) {
 
   const websiteLink = createAnchorElm(project.url, 'Live',"btn", "target", "_blank");
 
-  const githubLink = createAnchorElm(project.github,'GitHub', "btn", "target", "_blank");
+  const githubLink = createAnchorElm(project.github,'Github', "btn", "target", "_blank");
 
   linkContainer.append(websiteLink, githubLink);
   return linkContainer;
