@@ -205,18 +205,6 @@ const projectList = [
   },
   {
     id: 17,
-    name: "Kinetic CSS Loader",
-    description: "Small loader project with CSS animation",
-    image:
-      "https://user-images.githubusercontent.com/61211600/227793715-2e84af9e-e090-479d-98a0-83aef4fa612a.png",
-    url: "./projects/kinetic-loader/",
-    github:
-      "https://github.com/Jisan-mia/dom-projects/tree/main/projects/kinetic-loader/",
-    difficulty: "Junior",
-    tags: ["css", "animation"],
-  },
-  {
-    id: 18,
     name: "Modal",
     description: "Newsletter call to action Modal",
     image:
@@ -228,7 +216,7 @@ const projectList = [
     tags: ["css", "js"],
   },
   {
-    id: 19,
+    id: 18,
     name: "Advanced Todo",
     description:
       "An advanced to web application with todo state filtering and edit/delete functionality",
@@ -241,7 +229,7 @@ const projectList = [
     tags: ["css", "js", "web-api"],
   },
   {
-    id: 20,
+    id: 19,
     name: "Retro Calculator",
     description:
       "A Retro Style classic calculator web project with physical keyboard supported.",
