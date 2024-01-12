@@ -1,4 +1,4 @@
-### List of DOM Projects
+### Project Lists
 
 |  #  | Project                                                                                                         | Live Demo                                                                             | Details                             |
 | :-: | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------- |
@@ -18,7 +18,6 @@
 | 14  | [Animation on Scroll](https://github.com/Jisan-mia/dom-projects/tree/main/projects/animation-on-scroll)         | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/animation-on-scroll)    | [More](#animation-on-scroll)        |
 | 15  | [Search Field Reveal](https://github.com/Jisan-mia/dom-projects/tree/main/projects/search-field-reveal)         | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/search-field-reveal)    | [More](#search-field-reveal)        |
 | 16  | [Question List & Progress](https://github.com/Jisan-mia/dom-projects/tree/main/projects/question-list-progress) | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/question-list-progress) | [More](#question-list-and-progress) |
-| 17  | [Kinetic CSS Loader](https://github.com/Jisan-mia/dom-projects/tree/main/projects/kinetic-loader)               | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/kinetic-loader)         | [More](#kinetic-css-loader)         |
 
 ---
 
@@ -111,12 +110,6 @@
 ### Question List and Progress
 
 - This javascript project utilizes common use cases of DOM APIs like selecting elements, creating element, and updating the ui.
-
----
-
-### Kinetic CSS Loader
-
-- Small loader project with CSS animation
 
 ---
 
