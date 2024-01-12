@@ -259,7 +259,7 @@ section.hero {
   gap: 8px;
 }
 
-.tags span {
+.tags .tags-item {
   text-transform: uppercase;
   font-weight: 700;
   font-weight: 1.1rem;
