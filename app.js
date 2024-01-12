@@ -13,11 +13,11 @@ function loadProjectsOnScreen() {
       })
       .join("");
 	projectsArea.innerHTML += `
-				<div class="project-card"> 
-					<div class="project-img-cont"> 
+				<div class="project-card">
+					<div class="project-img-cont">
 						<img src="${project.image}" alt="${project.name}-project" />
 					</div>
-					<div class="project-detail"> 
+					<div class="project-detail">
 						<div class="project-content">
 							<h2> ${project.name} </h2>
 							<div class="tags">
@@ -27,8 +27,8 @@ function loadProjectsOnScreen() {
 						</div>
 					</div>
 					<div class="links">
-						<a target="_blank" href="${project.url}">Live</a>
-						<a target="_blank" href="${project.github}">Github</a>
+						<a class="btn" target="_blank" href="${project.url}">Live</a>
+						<a class="btn" target="_blank" href="${project.github}">Github</a>
 					</div>
 				</div>
 		`;

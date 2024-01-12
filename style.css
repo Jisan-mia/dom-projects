@@ -23,13 +23,6 @@ section {
   margin: 0 auto;
 }
 
-button {
-  transition: all 0.2s ease-in-out;
-}
-
-button:active {
-  transform: scale(0.98);
-}
 
 /* nav section */
 nav section {
@@ -41,17 +34,10 @@ nav section {
 nav .nav-list {
   display: flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: 1rem;
 }
 
-nav .nav-list a {
-  font-size: 0.98rem;
-  transition: all 0.1s ease-in;
-}
 
-nav .nav-list a:hover {
-  text-decoration: underline;
-}
 
 nav .left-side {
   display: flex;
@@ -85,24 +71,20 @@ nav {
   padding: 0.5rem 0;
 }
 
-nav .github-link {
-  display: flex;
-  gap: 0.5rem;
-  border-radius: 6px;
-  border: 1px solid black;
-  background-color: #fff;
-  padding: 4px 14px;
-  transition: all 0.2s ease-in-out;
+nav .project-nav-link {
+  border-color: transparent;
+  text-decoration: underline;
+  padding: 6px 20px;
 }
 
-nav .github-link:hover {
-  background: rgba(211, 211, 211, 0.308);
-  color: rgba(21, 21, 201, 0.678);
+nav .github-link {
+  padding: 6px 20px;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+  display: inline-block
 }
 
 /* hero section start */
@@ -117,6 +99,12 @@ section.hero {
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   align-items: center;
   gap: 1rem;
+}
+
+.hero .hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .hero .hero-left {
@@ -136,20 +124,32 @@ section.hero {
   line-height: 1.6rem;
 }
 
-.hero .hero-left button {
+.btn {
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  display: inline-flex;
+  position: relative;
+  overflow-wrap: normal;
+  padding: 6px 24px;
   border: 1px solid black;
+  text-decoration: none;
   border-radius: 4px;
-  padding: 8px 28px;
-  background: #fff;
-  cursor: pointer;
+  font: inherit;
+  outline: 0px;
   font-size: 0.92rem;
-  transition: all 0.2s ease-in-out;
-  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
 }
 
-.hero .hero-left button:hover {
-  background: rgba(156, 153, 153, 0.2);
+.btn:hover {
+  background-color: #000000da;
+  color: #fff;
+  text-decoration: underline;
+  border-color: #000000;
 }
+
+.hero .hero-left button {}
 
 .hero .hero-right .hero-right-img {
   width: 80%;
@@ -248,18 +248,8 @@ section.hero {
 }
 
 .project-card .links a {
-  /* text-decoration: underline;
-  color: rgba(10, 10, 202, 0.842); */
-  font-weight: 500;
-  font-size: 0.95rem;
-  padding: 4px 12px;
-  border: 1px solid black;
-  border-radius: 4px;
-}
-
-.project-card .links a:hover {
-  background: rgba(151, 150, 150, 0.247);
-  color: rgba(21, 21, 201, 0.89);
+  /* font-size: 0.95rem; */
+  padding: 5px 18px;
 }
 
 .tags {
