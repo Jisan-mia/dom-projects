@@ -1,4 +1,5 @@
-@import "../../common-style.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&display=swap');
+
 
 * {
   margin: 0;
@@ -7,6 +8,8 @@
 }
 
 body {
+  font-family: 'Raleway', Fallback, sans-serif;
+  font-size: 16px;
   max-width: 475px;
   margin: 0 auto;
   border-right: 1px solid lightgray;
@@ -65,12 +68,13 @@ ul li.list-item button {
   text-decoration: line-through;
   color: #333;
 }
+
 .list-item-label:hover,
 [data-list-item-checkbox]:hover {
   cursor: pointer;
 }
 
-[data-list-item-checkbox]:checked ~ [data-list-item-text] {
+[data-list-item-checkbox]:checked~[data-list-item-text] {
   text-decoration: line-through;
   color: #aaa;
 }

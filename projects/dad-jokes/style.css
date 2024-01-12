@@ -1,9 +1,14 @@
-@import "../../common-style.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', Fallback, sans-serif;
+  font-size: 16px;
 }
 
 body {
@@ -24,12 +29,14 @@ body {
   min-width: 200px;
   border: 1px solid lightgray;
 }
+
 .container h3 {
   font-weight: 400;
   font-size: 22px;
   color: rgb(136, 136, 138);
   margin-bottom: 35px;
 }
+
 .jokesDiv {
   font-size: 30px;
   letter-spacing: 1px;
@@ -51,9 +58,11 @@ body {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
+
 .jokesGeneratorBtn:active {
   transform: scale(0.98);
 }
+
 .jokesGeneratorBtn:focus {
   outline: 0;
 }

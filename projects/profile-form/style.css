@@ -1,14 +1,21 @@
-@import "../../common-style.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&display=swap');
 
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Raleway', Fallback, sans-serif;
+  font-size: 16px;
+}
+
 html {
   font-size: 16px;
   height: 100vh;
 }
+
 body {
   background-color: #f8f9fc;
   height: 100%;
@@ -58,6 +65,7 @@ form input:focus,
 textarea {
   outline: none;
 }
+
 textarea {
   resize: vertical;
 }
@@ -66,6 +74,7 @@ textarea {
   visibility: hidden;
   width: 10px;
 }
+
 .custom-file-input::before {
   content: "Select Profile Image";
   display: inline-block;
@@ -80,6 +89,7 @@ textarea {
   font-size: 0.8rem;
   letter-spacing: 0.02rem;
 }
+
 .custom-file-input:hover::before {
   border-color: black;
 }
@@ -91,6 +101,7 @@ textarea {
 .btn:active {
   transform: scale(0.99);
 }
+
 .btn:hover {
   cursor: pointer;
 }
@@ -101,6 +112,7 @@ textarea {
   overflow-y: scroll;
   padding: 10px 0;
 }
+
 #userProfile::-webkit-scrollbar {
   width: 0.3rem;
 }
@@ -113,6 +125,7 @@ textarea {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
+
 .profile-info {
   background-color: #ffffff;
   display: flex;
@@ -126,6 +139,7 @@ textarea {
   border: 1px solid black;
   border-radius: 6px;
 }
+
 .demo-profile {
   position: absolute;
   right: 0;
@@ -136,6 +150,7 @@ textarea {
   display: none;
   transition: 3s;
 }
+
 .demo:hover .demo-profile {
   display: block;
 }
@@ -144,10 +159,12 @@ textarea {
   background-color: rgba(211, 211, 211, 0.185);
   transform: translate(0, -10px);
 }
+
 .avatar {
   border-right: 1.5px rgb(0, 0, 0) solid;
   /* width: 100%; */
 }
+
 .avatar img {
   margin-right: 30px;
   width: 7.5rem;
@@ -157,11 +174,13 @@ textarea {
   border: 1px rgba(0, 0, 0, 0.849) solid;
   padding: 0.12rem;
 }
+
 .profileName-flexbox {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .edit-delete-icon {
   display: flex;
 }
@@ -172,6 +191,7 @@ textarea {
   display: none;
   margin-left: 5px;
 }
+
 .profile-info:hover .profileName-flexbox i {
   display: block;
 }
@@ -181,20 +201,24 @@ textarea {
   color: #000000;
   width: 100%;
 }
+
 .info h2 {
   font-size: 1.6rem;
   font-weight: 500;
   padding-bottom: 5px;
 }
+
 .info h3 {
   font-size: 1.1rem;
   font-weight: 400;
   font-style: italic;
   padding-bottom: 5px;
 }
+
 .info p {
   font-size: 0.9rem;
 }
+
 @media (max-width: 1050px) {
   main {
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -207,6 +231,7 @@ textarea {
     width: 100%;
     max-width: 100%;
   }
+
   .profile-info {
     width: 100%;
   }
@@ -230,16 +255,19 @@ textarea {
   .profile-info .info {
     padding-left: 8px;
   }
+
   .info h2 {
     font-size: 1.2rem;
     font-weight: 400;
     padding-bottom: 3px;
   }
+
   .info h3 {
     font-size: 0.8rem;
     font-weight: 300;
     padding-bottom: 3px;
   }
+
   .info p {
     font-size: 0.7rem;
   }

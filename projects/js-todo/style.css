@@ -1,9 +1,16 @@
-@import "../../common-style.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Raleway', Fallback, sans-serif;
+  font-size: 16px;
+}
+
 body {
   box-sizing: border-box;
   background-color: #f8f9fc;
@@ -65,6 +72,7 @@ body {
   font-weight: 200;
   margin: 30px 0 8px 0;
 }
+
 .time-date #date {
   color: #c0c0c0;
   font-size: 12px;
@@ -77,6 +85,7 @@ body {
   margin-top: 30px;
   overflow-y: scroll;
 }
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .content::-webkit-scrollbar {
   display: none;
@@ -84,8 +93,10 @@ body {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .content {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 .content .todos-watermark {
@@ -145,6 +156,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .add-item .add {
   font-size: 1.3em;
   color: #0d36f1d4;
@@ -158,6 +170,7 @@ body {
   margin-left: 5px;
   color: #0d37f1a9;
 }
+
 .add-item #todo-input::placeholder {
   color: #0d37f1a9;
 }

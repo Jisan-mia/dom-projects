@@ -1,9 +1,14 @@
-@import "../../common-style.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', Fallback, sans-serif;
+  font-size: 16px;
 }
 
 body {
@@ -85,6 +90,7 @@ body {
   color: gray;
   transition: all 0.15s ease-in-out;
 }
+
 .modal-close-btn:hover {
   color: #000;
   cursor: pointer;
@@ -96,6 +102,7 @@ body {
     top: 60%;
     opacity: 0;
   }
+
   to {
     top: 50%;
     opacity: 1;
@@ -106,6 +113,7 @@ body {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -131,6 +139,7 @@ body {
   font-size: 1.1rem;
   max-width: 95%;
 }
+
 #subscribe-form {
   display: flex;
   gap: 0.5em;
@@ -143,6 +152,7 @@ body {
   border-radius: 6px;
   padding-left: 10px;
 }
+
 #subscribe-form input[type="email"]:focus {
   outline: none;
   border-color: blue;

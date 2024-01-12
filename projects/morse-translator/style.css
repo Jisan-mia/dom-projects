@@ -1,4 +1,4 @@
-@import "../../common-style.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&display=swap');
 
 * {
   margin: 0;
@@ -6,36 +6,47 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Raleway', Fallback, sans-serif;
+  font-size: 16px;
+}
+
 .container {
   max-width: 1152px;
   margin: 0 auto;
   width: 90%;
 }
+
 /* nav */
 nav {
   width: 100%;
   background-color: #f5f5f5;
 }
+
 .nav-wrapper {
   width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .brand {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .brand img {
   width: 30px;
   margin-right: 8px;
 }
+
 .git-link {
   display: flex;
   align-items: center;
 }
+
 nav a {
   text-decoration: none;
   color: #48487b;
@@ -53,9 +64,11 @@ nav a:hover {
   color: #fff;
   line-height: 1.5;
 }
+
 .header h2 {
   font-size: 2rem;
 }
+
 .header .container {
   padding: 20px 0;
 }
@@ -94,6 +107,7 @@ nav a:hover {
   margin-right: 8px;
   cursor: pointer;
 }
+
 .main .top {
   display: flex;
   align-items: center;
@@ -105,10 +119,12 @@ nav a:hover {
   border: 0.5px solid #e0e0e0;
   text-align: center;
 }
+
 .morse-chart h1 {
   padding: 12px;
   font-size: 2rem;
 }
+
 #morseMainChart {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -129,6 +145,7 @@ nav a:hover {
   font-size: 1.2rem;
   font-weight: 800;
 }
+
 .chart-item .symbol {
   font-weight: 400;
   font-size: 1.4;
@@ -146,9 +163,11 @@ accordion-content */
   margin: 80px auto;
   font-family: "Roboto", sans-serif;
 }
+
 .morse-accordion .contentBox {
   margin: 18px auto;
 }
+
 .accordion-label {
   font-weight: 500;
   font-size: 1.1rem;
@@ -158,6 +177,7 @@ accordion-content */
   transition: all 0.2s linear;
   margin-bottom: 10px;
 }
+
 .accordion-label::after {
   content: "+";
   float: right;
@@ -167,6 +187,7 @@ accordion-content */
 .accordion-label.is-open::after {
   content: "-";
 }
+
 .accordion-label:hover,
 .accordion-label.is-open {
   background: #dbdbdbd0;
@@ -189,10 +210,12 @@ footer {
   text-align: center;
   margin: 40px auto !important;
 }
+
 footer p {
   font-family: "Roboto", sans-serif;
   color: #5a5858da;
 }
+
 footer a {
   text-decoration: none;
   color: #4714fff5;
@@ -202,9 +225,11 @@ footer a {
   .header h2 {
     font-size: 1.2rem;
   }
+
   .header p {
     font-size: 0.8rem;
   }
+
   nav a {
     padding: 15px 0;
   }
@@ -212,14 +237,17 @@ footer a {
   .main textarea {
     min-height: 120px;
   }
+
   .main .top i {
     font-size: 1rem;
     margin-right: 5px;
   }
+
   nav a {
     padding: 10px 5px;
     font-size: 0.8rem;
   }
+
   .brand img {
     width: 20px;
     margin-right: 5px;
@@ -236,6 +264,7 @@ footer a {
   .morse-accordion .contentBox {
     margin: 10px auto;
   }
+
   .accordion-label {
     font-weight: 500;
     font-size: 0.9rem;

@@ -1,11 +1,21 @@
-@import "../../common-style.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', Fallback, sans-serif;
+  font-size: 16px;
+}
 
 body {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-section {
-}
+section {}
 
 .card img {
   cursor: pointer;
@@ -27,6 +37,7 @@ section {
   background-color: #007bff;
   border-color: #007bff;
 }
+
 @media (max-width: 325px) {
   .filter-btn-div .filter-btn {
     font-size: 14px !important;

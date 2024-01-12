@@ -1,10 +1,16 @@
-@import "../../../common-style.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&display=swap');
 
 * {
-  padding: 0;
   margin: 0;
-  background-origin: padding-box;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Raleway', Fallback, sans-serif;
+  font-size: 16px;
+}
+
 input,
 textarea,
 button,
@@ -12,10 +18,12 @@ select,
 a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 html {
   font-size: 16px;
   height: 100%;
 }
+
 body {
   background-color: #f7f7f7;
   background-image: url("../img/bg4.png");
@@ -64,6 +72,7 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 .operation .value {
   position: absolute;
   opacity: 0.9;
@@ -114,9 +123,11 @@ body {
   opacity: 0.8;
   font-weight: 500;
 }
+
 .calc-switcher div:hover {
   color: rgb(255, 17, 0);
 }
+
 .calc-switcher div.active-calc {
   color: rgb(255, 17, 0);
   font-weight: 700;
@@ -166,6 +177,7 @@ body {
   width: 111px;
   border-radius: 50px;
 }
+
 .row #delete {
   color: #fff;
   background-color: #e05046;
@@ -205,9 +217,11 @@ body {
   height: 30px;
   transition: all 0.2s ease-in-out;
 }
+
 .advance-keys button:hover {
   font-weight: 800;
 }
+
 /* #D05D66 */
 /* disable button */
 .advance-keys button:disabled {
@@ -216,6 +230,7 @@ body {
   color: rgba(243, 128, 34, 0.829);
   cursor: default;
 }
+
 .advance-keys button:disabled:hover {
   font-size: 0.9rem;
   font-weight: 600;
@@ -241,12 +256,14 @@ footer p a {
 
     border-radius: 20px;
   }
+
   .row button {
     width: 40px;
     height: 40px;
     margin: 5px;
     outline: none;
   }
+
   .advance-keys button {
     font-weight: 600;
     width: 40px;
@@ -256,6 +273,7 @@ footer p a {
   .result {
     height: 80px;
   }
+
   .row #calculate {
     width: 100px;
     border-radius: 50px;
