@@ -1,12 +1,25 @@
-name: "✨ [Feature request]:"
-description: Suggest an idea for this project
-title: "✨ [Feature request]: "
-labels: ["⭐ goal: addition"]
+name: "🚀 [Feature request]:"
+description: Suggest an idea for this project 💡
+title: "[Feature request]: "
+labels: ["💡 feature"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time for issuing a feature request!
+  - type: dropdown
+    attributes:
+      multiple: false
+      label: Type of feature
+      description: Select the type of feature request, the lowercase should also be the PR prefix.
+      options:
+        - "🍕 New feature/project"
+        - "🐛 Bug fix"
+        - "📝 Documentation Update"
+        - "🎨 Style"
+        - "🧑‍💻 Code Refactor"
+    validations:
+      required: true
   - type: textarea
     id: feature-reason
     attributes:
