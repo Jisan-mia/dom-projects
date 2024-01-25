@@ -1,0 +1,45 @@
+name: New Project
+description: Add a New Project Request
+title: "[Add a Project]: "
+labels: ["project request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time for creating a new project.
+
+  - type: textarea
+    id: about-project
+    attributes:
+      label: What's the Project about?
+      description: Tell us in details about your Project.
+    validations:
+      required: true
+
+  - type: textarea
+    id: frontend-concepts
+    attributes:
+      label: What Frontend Development(HTML, CSS, JAVASCRIPT) concept will be used to create this project?
+      placeholder: HTML semantic elements, css flex-box, DOM manipulation  ...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: record
+    attributes:
+      label: Record
+      options:
+        - label: I have checked the existing [issues](https://github.com/Jisan-mia/dom-projects/issues)
+          required: true
+        - label: I have read the [Contributing Guidelines](https://github.com/Jisan-mia/dom-projects/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: I want to work on this issue
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Jisan-mia/dom-projects/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
