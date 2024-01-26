@@ -1,130 +1,98 @@
-### Project Lists
+# DOM Projects(Repo: `dom-projects`)
 
-|  #  | Project                                                                                                         | Live Demo                                                                             | Details                             |
-| :-: | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------- |
-| 01  | [Counter](https://github.com/Jisan-mia/dom-projects/tree/main/projects/counter)                                 | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/counter/)               | [More](#counter)                    |
-| 02  | [DadJokes](https://github.com/Jisan-mia/dom-projects/tree/main/projects/dad-jokes)                              | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/dad-jokes)              | [More](#dadjokes)                   |
-| 03  | [Form Validation](https://github.com/Jisan-mia/dom-projects/tree/main/projects/form-validation)                 | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/form-validation)        | [More](#form-validation)            |
-| 04  | [Random User](https://github.com/Jisan-mia/dom-projects/tree/main/projects/random-user)                         | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/random-user)            | [More](#random-user)                |
-| 05  | [Morse Code Translator](https://github.com/Jisan-mia/dom-projects/tree/main/projects/morse-translator)          | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/morse-translator)       | [More](#morse-code-translator)      |
-| 06  | [Basic Calculator](https://github.com/Jisan-mia/dom-projects/tree/main/projects/basic-calculator)               | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/basic-calculator)       | [More](#basic-calculator)           |
-| 07  | [Normal Calculator](https://github.com/Jisan-mia/dom-projects/tree/main/projects/normal-calculator)             | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/normal-calculator)      | [More](#normal-calculator)          |
-| 08  | [Scientific Calculator](https://github.com/Jisan-mia/dom-projects/tree/main/projects/scientific-calculator)     | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/scientific-calculator)  | [More](#scientific-calculator)      |
-| 09  | [Simple Todo App](https://github.com/Jisan-mia/dom-projects/tree/main/projects/js-todo)                         | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/js-todo)                | [More](#simple-todo-app)            |
-| 10  | [Profile Form & Card](https://github.com/Jisan-mia/dom-projects/tree/main/projects/profile-form)                | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/profile-form)           | [More](#profile-form-and-card)      |
-| 11  | [PC Component Filtering](https://github.com/Jisan-mia/dom-projects/tree/main/projects/pc-component-filter)      | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/pc-component-filter)    | [More](#pc-component-filtering)     |
-| 12  | [Weather App](https://github.com/Jisan-mia/dom-projects/tree/main/projects/weather-app)                         | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/weather-app)            | [More](#weather-app)                |
-| 13  | [Testimonial Slider](https://github.com/Jisan-mia/dom-projects/tree/main/projects/testimonial-slider)           | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/testimonial-slider)     | [More](#testionial-slider)          |
-| 14  | [Animation on Scroll](https://github.com/Jisan-mia/dom-projects/tree/main/projects/animation-on-scroll)         | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/animation-on-scroll)    | [More](#animation-on-scroll)        |
-| 15  | [Search Field Reveal](https://github.com/Jisan-mia/dom-projects/tree/main/projects/search-field-reveal)         | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/search-field-reveal)    | [More](#search-field-reveal)        |
-| 16  | [Question List & Progress](https://github.com/Jisan-mia/dom-projects/tree/main/projects/question-list-progress) | [Live Demo](https://jisan-mia.github.io/dom-projects/projects/question-list-progress) | [More](#question-list-and-progress) |
+<p align="center">
+  <a href="https://jisan.io/dom-projects/" target="_blank" style="font-size:50px"><img src="./favicon/android-chrome-192x192.png" alt="dom-projects" width="125" /></a>
+</p>
 
----
+<h4 align="center">Learn . Create . Share about your Frontend Development Journey</h4>
 
-## Project Details
+<p align="center">
+  <a href="https://github.com/Jisan-mia/dom-projects/blob/main/LICENSE" target="blank">
+<img src="https://img.shields.io/github/license/Jisan-mia/dom-projects?style=flat-square" alt="dom-projects licence" />
+</a>
+<a href="https://github.com/Jisan-mia/dom-projects/fork" target="blank">
+<img src="https://img.shields.io/github/forks/Jisan-mia/dom-projects?style=flat-square" alt="dom-projects forks"/>
+</a>
+<a href="https://github.com/Jisan-mia/dom-projects/stargazers" target="blank">
+<img src="https://img.shields.io/github/stars/Jisan-mia/dom-projects?style=flat-square" alt="dom-projects stars"/>
+</a>
+<a href="https://github.com/Jisan-mia/dom-projects/issues" target="blank">
+<img src="https://img.shields.io/github/issues/Jisan-mia/dom-projects?style=flat-square" alt="dom-projects issues"/>
+</a>
+<a href="https://github.com/Jisan-mia/dom-projects/pulls" target="blank">
+<img src="https://img.shields.io/github/issues-pr/Jisan-mia/dom-projects?style=flat-square" alt="dom-projects pull-requests"/>
+</a>
+<a href="https://twitter.com/intent/tweet?text=👋%20Check%20this%20amazing%20app%20https://jisan.io/dom-projects,%20created%20by%20@jisanmia47%20and%20friends%0A%0A%23DEVCommunity%20%23100DaysOfCode"><img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2FJisan-mia%2Fdom-projects"></a>
 
-### Counter
+</p>
 
-- A simple counter project with reset counter functionality.
+<p align="center">
+    <a href="https://jisan.io/dom-projects/" target="blank">View Demo</a>
+    ·
+    <a href="https://github.com/Jisan-mia/dom-projects/issues/new/choose">Report Bug</a>
+    ·
+    <a href="https://github.com/Jisan-mia/dom-projects/issues/new/choose">Request Feature</a>
+</p>
 
----
+## Introducing DOM Projects
 
-### DadJokes
+`dom-projects` is an `open-source` web app that helps you learn Frontend Development faster with a hands-on practice style. It is a collection of `HTML, CSS and JavaScript projects` that you can use to learn Frontend Development.
 
-- Getting random dad jokes by calling an api in asynchronous manner.
+You can also create your projects and share them with the world.
 
----
+## Demo
 
-### Form Validation
+Here is the link to the app. We hope you enjoy it.
 
-- Client side form validation using JavaScript. In addition, it has a success registration message and preview submitted form(readonly).
+> [The DOM Projects app Link](https://jisan.io/dom-projects/)
 
----
+## How to Set up `DOM Projects` for Development?
 
-### Random User
+It's simple. As this project was built using only HTML, CSS, JavaScript, no need of any build step, all you need is to fork the repo then clone it to your local machine and open index.html file on your browser.
 
-- This is a random user generator web app. In this project I used API to generate random user info. Every time you reload page/click generate btn, you'll see a new user.
+You may want to set up the `dom-projects` repo for the following reasons:
 
----
+- You want to create a new Project using HTML, CSS and JavaScript or want to edit an existing project as a contributor. Please check the [Contribution Guide](CONTRIBUTING.md) to get started.
 
-### Morse Code Translator
+- You want to contribute to the `dom-projects` repo in general. Please check the [Contribution Guide](CONTRIBUTING.md) to get started.
 
-- It's easy to use Morse Code Translator, translate Morse code to text, and text to Morse code.
+Here is a quick overview of the `dom-projects` repo setup:
 
----
+### Fork and Clone the Repo
 
-### Basic Calculator
+First, you need to fork the `dom-projects` repo. You can do this by clicking the `Fork` button on the top right corner of the repo. If you are new to forking, please watch this [YouTube Guide](https://www.youtube.com/watch?v=h8suY-Osn8Q) to get started.
 
-- JavaScript Basic Calculator
+Once forked, you can clone the repo by clicking the `Clone or Download` button on the top right corner of the forked repo.
 
-### Normal Calculator
+Please change the directory after cloning the repository using the `cd <folder-name>` command.
 
-- JavaScript Normal Calculator
+After navigating to the project directory, open the `index.html` file.
 
-### Scientific Calculator
+## Built With
 
-- JavaScript Scientific Calculator
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-### Simple Todo App
+## Contributing to `DOM Projects`
 
-- It's a kinda TODO site where anyone can add todo, complete, and delete them. I've worked with the date object too in this project.
+Any kind of positive contribution is welcome! Please help us to grow by [`CONTRIBUTING`](CONTRIBUTING.md) to the project.
 
----
+If you wish to contribute, you can,
 
-### Profile Form and Card
+- Create a Project
+- Suggest a Feature
+- Test the app, and help it improve.
+- Improve the app, fix bugs, etc.
+- Improve documentation.
+- Create content about DOM Projects and share it with the world.
 
-- This is a dynamic form with profile card using JavaScript. Also one profile can be deleted.
+> Please follow to guidelines outline in the [`CONTRIBUTING`](CONTRIBUTING.md) file, for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
----
+🆕 New to Open Source? 💡 Follow this [guide](https://opensource.guide/how-to-contribute/) to jumpstart your Open Source journey 🚀.
 
-### PC Component Filtering
+## License
 
-- It is a filtering web app using JavaScript. There are some computer parts which user can filter and know about specific part of a computer like input devices, output devices etc.
+The DOM Projects website is licensed under the [MIT License](LICENSE), permitting the usage, modification, and distribution of the codebase. See the [LICENSE](LICENSE) file for more details.
 
----
-
-### Weather App
-
-- It is a weather web app where user can see current weather by searching city name. I used an API for weather and developed in JavaScript.
-
----
-
-### Testimonial Slider
-
-- Created this testimonials section of a website using JavaScript and it was really fun coding this project.
-
----
-
-### Animation on Scroll
-
-- I use the scroll event in this project. Basically when you scroll down new content will show up with animation.
-
----
-
-### Search Field Reveal
-
-- A simple implementation of classList toggle method. Also, css transition and transform property were utilized for animation.
-
----
-
-### Question List and Progress
-
-- This javascript project utilizes common use cases of DOM APIs like selecting elements, creating element, and updating the ui.
-
----
-
-### Modal
-
-- Newsletter call to action Modal
-
----
-
-### Advanced Todo
-
-- An advanced to web application with todo state filtering and edit/delete functionality
-
----
-
-### Retro Calculator
-
-- A Retro Style classic calculator web project with physical keyboard supported.
+Thank you for being a part of this project and embracing a unique frontend learning experience! Happy coding!

@@ -143,11 +143,20 @@ section.hero {
   font-weight: 500;
 }
 
-.btn:hover {
+.btn:hover,
+.btn.active {
   background-color: #000000da;
   color: #fff;
   text-decoration: underline;
   border-color: #000000;
+}
+
+.btn.active {
+  text-decoration: none;
+}
+
+.btn.active:hover {
+  text-decoration: underline;
 }
 
 .hero .hero-left button {}

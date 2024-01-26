@@ -60,7 +60,7 @@ function getRandomColor() {
     "#0F1035",
     "#163020",
     "#264653",
-    "#4a5759",,
+    "#4a5759",
   ];
 	const randomIndex = Math.floor(Math.random() * colors.length);
 	return colors[randomIndex]
