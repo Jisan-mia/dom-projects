@@ -16,6 +16,6 @@ Please include a summary of the change and which issue is fixed. Please also inc
 
 - Related Issue #
 
-## 📸 Screenshots (optional)
+## Screenshots (optional)
 
-If you made UI changes, what are the before an afters?
+<!-- If you made UI changes, what are the before an afters? -->
