@@ -188,5 +188,15 @@
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/retro-calculator/",
     "difficulty": "Advanced",
     "tags": ["oop", "js", "retro"]
+  },
+  {
+    "id": 20,
+    "name": "Simple Quiz App",
+    "description": "Simple quiz app, has 3 question and timer with each question",
+    "image": "https://github.com/Jisan-mia/quiz-game/assets/61211600/e25bafb2-f7eb-4f35-99d6-84787be40604",
+    "url": "./projects/simple-quiz-app/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/retro-calculator/",
+    "difficulty": "Intermediate",
+    "tags": ["html", "css", "js"]
   }
 ]
