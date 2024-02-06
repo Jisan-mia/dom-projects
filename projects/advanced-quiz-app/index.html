@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Quiz Challenge</title>
+	</head>
+	<body>
+		<!-- Home page start -->
+		<section class="home" id="home">
+			<header>
+				<nav>
+					<h1 class="brand">Quiz</h1>
+					<ul class="nav-lists">
+						<li><a id="navPlayBtn" href="#">Play</a></li>
+						<li><a id="navHighScoreBtn" href="#">High Scores</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<div class="container">
+				<div>
+					<form class="home-page-form flex-column flex-center">
+						<div>
+							<label for="numberOfQuestion">Number of Question</label
+							><input
+								type="number"
+								id="numberOfQuestion"
+								placeholder="Number of question"
+							/>
+						</div>
+
+						<div>
+							<label for="category">Category</label>
+							<select name="category" id="category">
+								<option selected value="generalKnowledge">
+									General Knowledge
+								</option>
+								<option value="sports">Sports</option>
+								<option value="computers">Science: Computers</option>
+								<option value="mathematics">Science: Mathematics</option>
+								<option value="sciAndNatures">Science and Natures</option>
+								<option value="geography">Geography</option>
+								<option value="film">Entertainment: Film</option>
+								<option value="comics">Entertainment: Comics</option>
+
+								<option value="politics">Politics</option>
+								<option value="art">Art</option>
+							</select>
+						</div>
+
+						<div>
+							<label for="difficulty">Difficulty</label>
+							<select name="difficulty" id="difficulty">
+								<option selected value="easy">Easy</option>
+								<option value="medium">Medium</option>
+								<option value="hard">Hard</option>
+							</select>
+						</div>
+						<button class="btn" id="homePlayBtn">Play</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- Home page end -->
+
+
+<!-- loader start -->
+
+		<div class="container hidden" id="loader">
+			<div class="loader  "></div>
+		</div>
+<!-- loader end -->
+
+		<!-- quiz Page start -->
+
+		<section class="quiz-page hidden" id="quiz">
+				<div id="game" class="justify-center flex-column container">
+					<div id="hud">
+						<div id="hud-item">
+							<p id="progresstText" class="hud-prefix">Question</p>
+							<div id="progressBar">
+								<div id="progressBarFull"></div>
+							</div>
+						</div>
+						<div id="hud-item">
+							<p class="hud-prefix">Score</p>
+							<h1 class="hud-main-text" id="score">0</h1>
+						</div>
+					</div>
+
+					<h3 class="question-text" id="question"></h3>
+					<div class="choice-container">
+						<p class="choice-prefix">A</p>
+						<p class="choice-text" data-number="1"></p>
+					</div>
+					<div class="choice-container">
+						<p class="choice-prefix">B</p>
+						<p class="choice-text" data-number="2"></p>
+					</div>
+					<div class="choice-container">
+						<p class="choice-prefix">C</p>
+						<p class="choice-text" data-number="3"></p>
+					</div>
+					<div class="choice-container">
+						<p class="choice-prefix">D</p>
+						<p class="choice-text" data-number="4"></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Game Page End -->
+
+		<!-- quiz end page start -->
+		<section id="endPage" class="end-page hidden">
+			<div class="container">
+				<div id="end" class="flex-center flex-column">
+					<h1 id="finalScore"></h1>
+					<form class="endPageForm flex-column">
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="username"
+						/>
+						<button type="submit" class="btn" id="saveScoreBtn" disabled>
+							Save
+						</button>
+						<a href="/" class="btn">Play Again</a>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- quiz end page end -->
+
+		<!-- High Scores Page Start-->
+
+		<section class="highScores hidden" id="highScorePage">
+			<div class="container">
+				<div class="flex-center flex-column">
+					<h2>Top 5 High Scores</h2>
+
+					<table class="highScoreContainer">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Name</th>
+								<th>Score</th>
+							</tr>
+						</thead>
+						<tbody id="tBody"></tbody>
+					</table>
+
+					<button id="highScorePageHomeBtn" class="btn">Go Home</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- High Scores Page End-->
+
+		<script src="script.js"></script>
+	</body>
+</html>
