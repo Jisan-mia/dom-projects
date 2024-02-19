@@ -1,0 +1,74 @@
+:root{
+    --primary-color: #013a31;
+    --secondary-color: #87e1d2;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #999;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    padding:20px;
+    font-size:20px;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    text-align: center;
+}
+.converter-form{
+    margin-top:50px;
+    margin-left: 20%;
+}
+.selector-label{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+#zone-id-selector{
+    margin-top:5px;
+    padding:4px;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    font-size: 16px;
+}
+#convert-btn{
+    font-size:18px;
+    border:none;
+    color:white;
+    background: var(--primary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+.foot{
+    background: var(--secondary-color);
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+}
+#result-date{
+    margin-top:40px;
+    color:var(--primary-color);
+    font-weight: 500;
+    text-align: center;
+}
+
+.container{
+    width: 40%;
+    height: 350px;
+    background: #ffffff;
+    border-radius: 10px;
+    position: relative;
+}
