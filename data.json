@@ -208,5 +208,15 @@
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/advanced-quiz-app/",
     "difficulty": "Advanced",
     "tags": ["js", "api"]
+  },
+  {
+    "id": 22,
+    "name": "Zoned Date Time",
+    "description": "Convert to any date & time zone easily",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/9aa23306-f571-4503-b73d-089f8622f5c5",
+    "url": "./projects/zoned-date-time/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/zoned-date-time/",
+    "difficulty": "Intermediate",
+    "tags": ["js", "date"]
   }
 ]
