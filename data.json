@@ -218,5 +218,15 @@
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/zoned-date-time/",
     "difficulty": "Intermediate",
     "tags": ["js", "date"]
+  },
+  {
+    "id": 23,
+    "name": "Text Intersection",
+    "description": "This app is used to get unique items from list of text. It has two input field. User can enter comma separated text and check unique items from both side. Remember only supported punctuation mark is comma.",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/69128d96-1590-4d3f-a075-c1e0b959c8d4",
+    "url": "./projects/text-intersection/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/text-intersection/",
+    "difficulty": "Intermediate",
+    "tags": ["js", "css"]
   }
 ]
