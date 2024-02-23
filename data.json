@@ -233,7 +233,7 @@
     "id": 24,
     "name": "Color Picker",
     "description": "Color Picker is an DOM application where users can enter the number of color hex code they need. Then they click on the generate button and the application gives them that amount of color code.",
-    "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/69128d96-1590-4d3f-a075-c1e0b959c8d4",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/18a1eba7-5580-4b1a-9ad6-f1f8e7ef0fdb",
     "url": "./projects/Color-Picker/",
     "github": "https://github.com/sadiul-hakim/dom-projects-hakim/tree/main/projects/Color-Picker",
     "difficulty": "Intermediate",
