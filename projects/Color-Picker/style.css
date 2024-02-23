@@ -1,0 +1,51 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+.title{
+    padding:10px;
+    text-align: center;
+    color: white;
+    background: crimson;
+    border-radius: 4px;
+}
+
+.action_area{
+    margin: 10px 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+}
+
+#num{
+    padding: 4px;
+    font-size: 18px;
+    border-width: 2px;
+}
+
+#generate{
+    margin-left: 5px;
+    background: crimson;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.root{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.root div{
+    box-shadow: 0 1px 1px #333;
+    padding:30px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin: 8px 0;
+}
