@@ -238,5 +238,15 @@
     "github": "https://github.com/sadiul-hakim/dom-projects-hakim/tree/main/projects/Color-Picker",
     "difficulty": "Intermediate",
     "tags": ["js", "css","html"]
+  },
+  {
+    "id": 25,
+    "name": "REST Client",
+    "description": "By the application user can send GET POST PUT DELETE request to an HTTP endpoint.",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/c49906a7-3690-4167-a3e5-6315ea2d1d64",
+    "url": "./projects/rest-client/",
+    "github": "https://github.com/sadiul-hakim/dom-projects-hakim/tree/main/projects/rest-client",
+    "difficulty": "Advanced",
+    "tags": ["js", "css","html"]
   }
 ]
