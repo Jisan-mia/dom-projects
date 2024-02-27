@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rest Client</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script defer src="app.js"></script>
+    <script defer src="frontend.js"></script>
+</head>
+<body>
+<div class="container">
+<h1>Online Rest Client</h1>
+    <div class="input__area">
+        <div class="main__input_area">
+            <select name="method" id="method">
+                <option value="GET">GET</option>
+                <option value="POST">POST</option>
+                <option value="PUT">PUT</option>
+                <option value="DELETE">DELETE</option>
+            </select>
+            <input type="text" name="url_field" id="url_field" required/>
+            <button id="request__btn">Send</button>
+        </div>
+        <div class="sub__input_area" id="sub__input_area">
+            <textarea name="requestBody" id="requestBody" cols="50" rows="10" placeholder="Request Body (In JSON)"></textarea>
+            <textarea name="headersField" id="headersField" cols="50" rows="10" placeholder="Authorization:Basic gv123bb3b41bbbfbb5hbjb1" title="Headers field"></textarea>
+        </div>
+    </div>
+    <div class="result__area">
+        <h3 id="status"></h3>
+        <pre><code class="language-json" id="response"></code></pre>
+        <h3>Headers : </h3>
+        <pre><code class="language-json" id="headers"></code></pre>
+    </div>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+<script>hljs.highlightAll();</script>
+</html>
