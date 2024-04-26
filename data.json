@@ -248,5 +248,15 @@
     "github": "https://github.com/sadiul-hakim/dom-projects-hakim/tree/main/projects/rest-client",
     "difficulty": "Advanced",
     "tags": ["js", "css","html"]
+  },
+  {
+    "id": 26,
+    "name": "Quran",
+    "description": "This is a Quran application. This application calls a free quran api.",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/b6558a21-8ce3-4184-ae5e-b775e6ab39a8",
+    "url": "./projects/Quran/",
+    "github": "https://github.com/sadiul-hakim/dom-projects-hakim/tree/main/projects/Quran",
+    "difficulty": "Intermediate",
+    "tags": ["js", "css","html"]
   }
 ]

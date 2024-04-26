@@ -1,0 +1,68 @@
+:root{
+    --primary-color: #0c6858;
+    --secondary-color: #7be1d0;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #999;
+}
+
+.container{
+    width:90%;
+    margin: 0 auto;
+    background: white;
+    padding-top: 40px;
+}
+
+.title{
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.action__area{
+    background: var(--secondary-color);
+    padding:10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#surah_num{
+    padding: 4px;
+    font-size: 18px;
+}
+
+.load__btn{
+    padding:10px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    margin: 0 10px;
+}
+
+.next__btn{
+    padding:10px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.result__area{
+    text-align: center;
+}
+
+.ayah{
+    font-weight: 400;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    padding: 5px;
+    list-style-type: none;
+}
