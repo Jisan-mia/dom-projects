@@ -1,6 +1,6 @@
 :root {
     --primary-color: #003f35;
-    --secondary-color: rgba(123, 225, 208, 0.56);
+    --secondary-color: rgba(252, 252, 252, 0.56);
 }
 
 * {
@@ -12,7 +12,7 @@
 @font-face {
     font-family: "Overlook";
     src: url("./font/Overlock-Regular.ttf"),
-        url("./font/Overlock-Bold.ttf");
+    url("./font/Overlock-Bold.ttf");
 }
 
 body {
@@ -87,10 +87,28 @@ body {
 }
 
 .surah__list li:hover,
-.ayah:hover{
+.ayah:hover {
     background: var(--secondary-color);
+}
+
+.ayah:hover .audio{
+    display: inline-block;
 }
 
 a {
     text-decoration: none;
+}
+
+#language {
+    margin: 0 5px;
+    padding: 5px;
+    color: white;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+}
+
+.audio{
+    margin-left: 10px;
+    display: none;
 }

@@ -4,6 +4,7 @@ const next_num = document.getElementById("next__btn");
 let ayat__list = document.getElementById("ayat__list");
 const title__eng = document.getElementById("title__eng");
 const title__arb = document.getElementById("title__arb");
+const language = document.getElementById("language");
 
 let surahNumber = surah_num.value;
 
@@ -33,35 +34,61 @@ next_num.onclick = async () => {
 }
 
 async function loadAndShow(number) {
-    let response = await fetch(`https://api.alquran.cloud/v1/surah/${number}/en.asad`);
-    let data = await response.json();
+
+    let lang = language.value;
+    let data;
+
+    if (lang === "eng") {
+        let engResponse = await fetch(`https://api.alquran.cloud/v1/surah/${number}/en.asad`);
+        data = await engResponse.json();
+    } else {
+        let engResponse = await fetch(`https://api.alquran.cloud/v1/surah/${number}/ar.alafasy`);
+        data = await engResponse.json();
+    }
 
     title__eng.innerText = data.data.englishName;
     title__arb.innerText = data.data.name;
 
-    showAyat(data.data)
+    showAyat(data.data, lang);
 }
 
-function showAyat(data) {
+function showAyat(data, lang) {
     let ayahs = data.ayahs;
 
     ayat__list.innerHTML = "";
 
     for (let i = 0; i < ayahs.length; i++) {
         let ayah = ayahs[i];
-        let tag = createLiTag("li", "ayah", ayah.number, ayah.text);
+        let tag = createLiTag("li", "ayah", ayah.text, ayah.number);
+
+        if (lang === "arb") {
+            let audioTag = createTag("audio", "");
+            audioTag.controls = true;
+            audioTag.classList.add("audio");
+
+            let sourceTag = createTag("source", "");
+            sourceTag.src = ayah.audio;
+            sourceTag.type = "audio/mp3";
+
+            audioTag.append(sourceTag);
+            tag.append(audioTag);
+        }
+
         ayat__list.append(tag);
     }
 }
 
-function createLiTag(name, className, number, content) {
-    let tag = createTag(name, className);
-    tag.innerText = `${number}. ${content}`;
-    return tag;
+function createLiTag(name, className, content, number) {
+    let liTag = createTag(name, className);
+    liTag.innerText = `${number}. ${content}`;
+    return liTag;
 }
 
 function createTag(name, className) {
     let tag = document.createElement(name);
-    tag.classList.add(className)
+
+    if (className.length !== 0) {
+        tag.classList.add(className)
+    }
     return tag;
 }
