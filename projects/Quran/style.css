@@ -38,7 +38,6 @@ body {
 }
 
 .action__area {
-    background: var(--secondary-color);
     padding: 10px;
     display: flex;
     justify-content: end;
@@ -46,8 +45,9 @@ body {
 }
 
 #surah_num {
-    padding: 4px;
+    padding: 6px;
     font-size: 18px;
+    border-radius: 4px;
 }
 
 .load__btn,
@@ -84,6 +84,11 @@ body {
     color: var(--primary-color);
     font-size: 18px;
     font-weight: 500;
+}
+
+.surah__list li:hover,
+.ayah:hover{
+    background: var(--secondary-color);
 }
 
 a {
