@@ -1,5 +1,3 @@
-let surahNumber = 1;
-
 const surah_num = document.getElementById("surah_num");
 const load__btn = document.getElementById("load__btn");
 const next_num = document.getElementById("next__btn");
@@ -7,9 +5,11 @@ let ayat__list = document.getElementById("ayat__list");
 const title__eng = document.getElementById("title__eng");
 const title__arb = document.getElementById("title__arb");
 
+let surahNumber = surah_num.value;
+
 load__btn.onclick = async (e) => {
     let number = surah_num.value;
-    if(number < 0 || number > 114){
+    if (number < 0 || number > 114) {
         alert("Invalid Surah Number!")
         return
     }
@@ -22,7 +22,14 @@ window.onload = async () => {
 }
 
 next_num.onclick = async () => {
-    await loadAndShow(++surahNumber);
+
+    surahNumber = surah_num.value;
+
+    if (surahNumber == 114) {
+        surahNumber = 0;
+    }
+    surah_num.value = ++surahNumber;
+    await loadAndShow(surahNumber);
 }
 
 async function loadAndShow(number) {
@@ -38,7 +45,7 @@ async function loadAndShow(number) {
 function showAyat(data) {
     let ayahs = data.ayahs;
 
-    ayat__list.innerHTML="";
+    ayat__list.innerHTML = "";
 
     for (let i = 0; i < ayahs.length; i++) {
         let ayah = ayahs[i];

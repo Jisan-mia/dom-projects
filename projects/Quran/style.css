@@ -1,45 +1,58 @@
-:root{
-    --primary-color: #0c6858;
-    --secondary-color: #7be1d0;
+:root {
+    --primary-color: #003f35;
+    --secondary-color: rgba(123, 225, 208, 0.56);
 }
 
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    background: #999;
+@font-face {
+    font-family: "Overlook";
+    src: url("./font/Overlock-Regular.ttf"),
+        url("./font/Overlock-Bold.ttf");
 }
 
-.container{
-    width:90%;
+body {
+    background-image: url("./img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Overlook, serif;
+}
+
+.container {
+    width: 80%;
     margin: 0 auto;
-    background: white;
+    background: rgba(255, 255, 255, 0.49);
     padding-top: 40px;
+    height: 100vh;
+    overflow: auto;
 }
 
-.title{
+.title {
     text-align: center;
     color: var(--primary-color);
 }
 
-.action__area{
+.action__area {
     background: var(--secondary-color);
-    padding:10px;
+    padding: 10px;
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
-#surah_num{
+#surah_num {
     padding: 4px;
     font-size: 18px;
 }
 
-.load__btn{
-    padding:10px;
+.load__btn,
+.next__btn {
+    padding: 10px;
     background: var(--primary-color);
     color: white;
     border-radius: 4px;
@@ -47,22 +60,32 @@ body{
     margin: 0 10px;
 }
 
-.next__btn{
-    padding:10px;
-    background: var(--primary-color);
-    color: white;
-    border-radius: 4px;
-    border: none;
-}
-
-.result__area{
+.result__area {
     text-align: center;
 }
 
-.ayah{
-    font-weight: 400;
+.ayah {
     color: var(--primary-color);
     border-bottom: 1px solid var(--primary-color);
     padding: 5px;
     list-style-type: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.surah__list {
+    padding: 10px;
+}
+
+.surah__list li {
+    list-style-type: none;
+    border-bottom: 1px solid var(--primary-color);
+    padding: 5px;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
 }
