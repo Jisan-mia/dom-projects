@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Quran</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="app.js"></script>
+    <link rel="icon" type="image/x-icon" href="./img/quran.png">
 </head>
 <body>
     <div class="container">
@@ -14,13 +15,14 @@
         </h1>
         <div class="action__area">
             <input type="number" name="surah_num" id="surah_num" value="1" placeholder="Surah Number (1-114)"/>
-            <select id="language">
+            <select id="language" class="btn">
                 <option value="eng">English</option>
                 <option value="arb">Arabic</option>
             </select>
-            <button class="load__btn" id="load__btn">Load</button>
-            <button class="next__btn" id="next__btn">Next</button>
-            <a href="./SurahList.html" class="load__btn">See Surahs</a>
+            <button class="btn" id="load__btn">Load</button>
+            <button class="btn" id="next__btn">Next</button>
+            <button class="btn"><a href="./SurahList.html">See Surahs</a></button>
+
         </div>
         <div class="result__area">
             <ul id="ayat__list"></ul>
