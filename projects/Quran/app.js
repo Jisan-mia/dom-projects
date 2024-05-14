@@ -10,8 +10,9 @@ let surahNumber = surah_num.value;
 
 load__btn.onclick = async (e) => {
     let number = surah_num.value;
-    if (number === "" || number < 0 || number > 114) {
-        alert("Invalid Surah Number!")
+
+    if (number === "" || number <= 0 || number > 114) {
+        alert("Invalid Surah Number! please input from 1 to 114.")
         return
     }
 
