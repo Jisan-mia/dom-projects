@@ -45,7 +45,7 @@
 .root div{
     box-shadow: 0 1px 1px #333;
     padding:30px;
-    font-size: 20px;
+    font-size: 1em;
     border-radius: 3px;
     margin: 8px 0;
 }
