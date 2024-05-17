@@ -6,6 +6,10 @@ const root = document.getElementById("root");
 generate.onclick = () => {
     let numberOfColors = Number(num.value);
 
+    if(numberOfColors > 5000){
+        alert("Number of colors is getting bigger!")
+    }
+
     const existingHexCodes = new Set();
 
     for (let i = 0; i < numberOfColors; i++) {  // Generate 10 unique hex codes
