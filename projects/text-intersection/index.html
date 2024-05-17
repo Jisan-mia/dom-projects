@@ -14,17 +14,16 @@
         <h1 class="banner">Text Intersection</h1>
         <div class="main">
             <div class="field-area">
-                <textarea name="leftArea" id="leftArea" cols="30" rows="20"></textarea>
-                <textarea name="leftArea" id="rightArea" cols="30" rows="20"></textarea>
+                <textarea name="leftArea" id="leftArea" cols="30" rows="20" placeholder="Comma separated text e.g a,b,c"></textarea>
+                <textarea name="leftArea" id="rightArea" cols="30" rows="20" placeholder=" Comma separated text e.g b,c,d"></textarea>
             </div>
             <div class="action-area">
-                <label for="selector" id="selector-label">Intersect : </label>
                 <select name="condition-selector" id="selector">
                     <option value="left">From Left</option>
                     <option value="right">From Right</option>
                     <option value="both">From Both</option>
                 </select>
-                <button id="intersectionBtn">Check</button>
+                <button id="intersectionBtn">Intersect</button>
             </div>
             <textarea name="result-area" id="result" cols="30" rows="20" disabled></textarea>
         </div>
