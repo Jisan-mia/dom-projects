@@ -258,5 +258,15 @@
     "github": "https://github.com/sadiul-hakim/dom-projects-hakim/tree/main/projects/Quran",
     "difficulty": "Intermediate",
     "tags": ["js", "css","html"]
+  },
+  {
+    "id": 28,
+    "name": "Dialog",
+    "description": "Newsletter call to action Dialog. A more modern way to implement Modals, compatible with new browsers and compliant with WCAG standards.",
+    "image": "https://user-images.githubusercontent.com/61211600/230961621-578d44cb-dc62-4d30-be56-06a28b51a1ed.png",
+    "url": "./projects/dialog/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/dialog/",
+    "difficulty": "Junior",
+    "tags": ["html","css", "js"]
   }
 ]
