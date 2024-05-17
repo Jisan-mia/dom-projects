@@ -19,16 +19,16 @@ requestBtn.onclick = async () => {
     let data = {};
     switch (method) {
         case "GET":
-            data = await getAndDeleteRequest(url,"GET");
+            data = await getAndDeleteRequest(url, "GET");
             break
         case "POST":
-            data = await postAndPutRequest(url,"POST");
+            data = await postAndPutRequest(url, "POST");
             break
         case "PUT":
-            data = await postAndPutRequest(url,"PUT");
+            data = await postAndPutRequest(url, "PUT");
             break
         case "DELETE":
-            data = await getAndDeleteRequest(url,"DELETE");
+            data = await getAndDeleteRequest(url, "DELETE");
             break
     }
 
@@ -38,7 +38,7 @@ requestBtn.onclick = async () => {
     headersArea.innerText = JSON.stringify(data.headers);
 };
 
-async function postAndPutRequest(url,method) {
+async function postAndPutRequest(url, method) {
     let body = requestBodyField.value;
     console.log(body)
 
@@ -50,7 +50,7 @@ async function postAndPutRequest(url,method) {
     let headersText = headersField.value;
     let headersObject = {}
     let newHeaders = constructHeaders(headersText);
-    if(headersText.length !== 0){
+    if (headersText.length !== 0) {
         headersObject = newHeaders;
     }
     headersObject['Content-Type'] = 'application/json';
@@ -58,7 +58,7 @@ async function postAndPutRequest(url,method) {
     try {
         let call = await fetch(url, {
             method: method,
-            headers:headersObject,
+            headers: headersObject,
             body: body
         })
         let data = await call.json();
@@ -74,13 +74,20 @@ async function postAndPutRequest(url,method) {
     }
 }
 
-async function getAndDeleteRequest(url,method) {
+async function getAndDeleteRequest(url, method) {
     try {
-        let call = await fetch(url,{
+
+        let headersText = headersField.value;
+        let headersObject = {}
+        let newHeaders = constructHeaders(headersText);
+        if (headersText.length !== 0) {
+            headersObject = newHeaders;
+        }
+        headersObject['Content-Type'] = 'application/json';
+
+        let call = await fetch(url, {
             method,
-            headers:{
-                'Content-Type':'application/json'
-            }
+            headers: headersObject
         });
         let content = await call.json();
 
@@ -105,7 +112,7 @@ function constructHeaders(headersText) {
         let singleHeader = textWithColon.split(":");
 
         for (let j = 0; j < singleHeader.length; j++) {
-            headers[singleHeader[i]] = singleHeader[j];
+            headers[singleHeader[i].trim()] = singleHeader[j].trim();
         }
     }
 

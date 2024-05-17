@@ -28,9 +28,13 @@ h1{
 
 .sub__input_area{
     margin: 10px 0;
-    display: none;
     justify-content: space-between;
+    display: flex;
     align-items: center;
+}
+
+#requestBody{
+    display: none;
 }
 
 .sub__input_area textarea{
