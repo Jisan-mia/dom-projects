@@ -258,5 +258,15 @@
     "github": "https://github.com/sadiul-hakim/dom-projects-hakim/tree/main/projects/Quran",
     "difficulty": "Intermediate",
     "tags": ["js", "css","html"]
+  },
+  {
+    "id": 27,
+    "name": "Tic Tac Toe",
+    "description": "This is a Tic Tac Toe Game.",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/ab87fd6b-e1a2-4a34-bf5a-c2f103d21839",
+    "url": "./projects/tic-tac-toe/",
+    "github": "https://github.com/sadiul-hakim/dom-projects-hakim/tree/main/projects/tic-tac-toe/",
+    "difficulty": "Intermediate",
+    "tags": ["js", "css","html"]
   }
 ]
