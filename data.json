@@ -171,6 +171,16 @@
   },
   {
     "id": 18,
+    "name": "Dialog",
+    "description": "Newsletter call to action Dialog. A more modern way to implement Modals, compatible with new browsers and compliant with WCAG standards.",
+    "image": "https://user-images.githubusercontent.com/61211600/230961621-578d44cb-dc62-4d30-be56-06a28b51a1ed.png",
+    "url": "./projects/dialog/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/dialog/",
+    "difficulty": "Junior",
+    "tags": ["html","css", "js"]
+  }.  
+  {
+    "id": 19,
     "name": "Advanced Todo",
     "description": "An advanced to web application with todo state filtering and edit/delete functionality",
     "image": "https://user-images.githubusercontent.com/61211600/232296779-a7c4af29-14ac-444d-bfd1-c51f7ede3a63.png",
@@ -180,7 +190,7 @@
     "tags": ["css", "js", "web-api"]
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "Retro Calculator",
     "description": "A Retro Style classic calculator web project with physical keyboard supported.",
     "image": "https://github.com/Jisan-mia/retro-calculator/assets/61211600/fe246bba-30ed-4cf7-91d6-7a95e08042dc",
@@ -190,7 +200,7 @@
     "tags": ["oop", "js", "retro"]
   },
   {
-    "id": 20,
+    "id": 21,
     "name": "Simple Quiz App",
     "description": "Simple quiz app, has 3 question and timer with each question",
     "image": "https://github.com/Jisan-mia/quiz-game/assets/61211600/e25bafb2-f7eb-4f35-99d6-84787be40604",
@@ -200,7 +210,7 @@
     "tags": ["html", "css", "js"]
   },
   {
-    "id": 21,
+    "id": 22,
     "name": "Advanced Quiz App",
     "description": "Advance quiz app with the ability of customizing total questions, question topic and difficulty",
     "image": "https://github.com/Jisan-mia/quiz-game/assets/61211600/7ebcf760-695c-41d5-b2dc-762334784d08",
@@ -210,7 +220,7 @@
     "tags": ["js", "api"]
   },
   {
-    "id": 22,
+    "id": 23,
     "name": "Zoned Date Time",
     "description": "Convert to any date & time zone easily",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/9aa23306-f571-4503-b73d-089f8622f5c5",
@@ -220,7 +230,7 @@
     "tags": ["js", "date"]
   },
   {
-    "id": 23,
+    "id": 24,
     "name": "Text Intersection",
     "description": "This app is used to get unique items from list of text. It has two input field. User can enter comma separated text and check unique items from both side. Remember only supported punctuation mark is comma.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/69128d96-1590-4d3f-a075-c1e0b959c8d4",
@@ -230,7 +240,7 @@
     "tags": ["js", "css"]
   },
   {
-    "id": 24,
+    "id": 25,
     "name": "Color Picker",
     "description": "Color Picker is an DOM application where users can enter the number of color hex code they need. Then they click on the generate button and the application gives them that amount of color code.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/18a1eba7-5580-4b1a-9ad6-f1f8e7ef0fdb",
@@ -240,7 +250,7 @@
     "tags": ["js", "css","html"]
   },
   {
-    "id": 25,
+    "id": 26,
     "name": "REST Client",
     "description": "By the application user can send GET POST PUT DELETE request to an HTTP endpoint.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/c49906a7-3690-4167-a3e5-6315ea2d1d64",
@@ -250,7 +260,7 @@
     "tags": ["js", "css","html"]
   },
   {
-    "id": 26,
+    "id": 27,
     "name": "Quran",
     "description": "This is a Quran application. This application calls a free quran api.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/b6558a21-8ce3-4184-ae5e-b775e6ab39a8",
@@ -261,12 +271,12 @@
   },
   {
     "id": 28,
-    "name": "Dialog",
-    "description": "Newsletter call to action Dialog. A more modern way to implement Modals, compatible with new browsers and compliant with WCAG standards.",
-    "image": "https://user-images.githubusercontent.com/61211600/230961621-578d44cb-dc62-4d30-be56-06a28b51a1ed.png",
-    "url": "./projects/dialog/",
-    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/dialog/",
-    "difficulty": "Junior",
-    "tags": ["html","css", "js"]
+    "name": "Tic Tac Toe",
+    "description": "This is a Tic Tac Toe Game.",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/ab87fd6b-e1a2-4a34-bf5a-c2f103d21839",
+    "url": "./projects/tic-tac-toe/",
+    "github": "https://github.com/sadiul-hakim/dom-projects-hakim/tree/main/projects/tic-tac-toe/",
+    "difficulty": "Intermediate",
+    "tags": ["js", "css","html"]
   }
 ]

@@ -6,8 +6,13 @@ const root = document.getElementById("root");
 generate.onclick = () => {
     let numberOfColors = Number(num.value);
 
-    if(numberOfColors > 5000){
+    if (numberOfColors > 5000) {
         alert("Number of colors is getting bigger!")
+    }
+
+    if (numberOfColors > 100000) {
+        alert("Can not load such a big number of colors!")
+        return;
     }
 
     const existingHexCodes = new Set();
@@ -17,17 +22,18 @@ generate.onclick = () => {
         existingHexCodes.add(newHexCode);
     }
 
+    root.innerText = "";
     existingHexCodes.forEach((value) => {
-        let div = generateElement("div",value);
+        let div = generateElement("div", value);
         root.append(div);
     })
 
 }
 
-function generateElement(tagName,color){
+function generateElement(tagName, color) {
     let tag = document.createElement(tagName);
-    tag.style.background = "#"+color;
-    tag.innerText = "#"+color;
+    tag.style.background = "#" + color;
+    tag.innerText = "#" + color;
     return tag;
 }
 
