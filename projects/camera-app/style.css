@@ -1,0 +1,10 @@
+#video {
+    width: 100%;
+    max-width: 600px;
+}
+#canvas {
+    display: none;
+}
+#capture {
+    margin-top: 10px;
+}
