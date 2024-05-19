@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", Fallback, sans-serif;
+  font-size: 16px;
+  background: #ecf1fa;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.primary-button {
+  background-color: #5771eb;
+  color: #f5f7fe;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: #5771eb 0px 12px 28px -15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.primary-button:hover {
+  background-color: #3150e0;
+}
+
+.primary-button:active {
+  transform: scale(0.99);
+}
+
+.subscribe-wrapper {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 40px;
+  border: none;
+  border-radius: 10px;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.subscribe-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.subscribe-header h2 {
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: #242e4c;
+  max-width: 80%;
+}
+
+.subscribe-header .dialog-close-btn {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.75rem;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe-body {
+  color: #242e4c;
+  display: flex;
+  flex-direction: column;
+  gap: 0.91rem;
+}
+
+.subscribe-body p {
+  font-weight: 500;
+  opacity: 0.9;
+  font-size: 1.1rem;
+  max-width: 95%;
+}
+
+#subscribe-form {
+  display: flex;
+  gap: 0.5em;
+  margin-top: 15px;
+}
+
+#subscribe-form input[type="email"] {
+  flex: 1;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+#subscribe-form input[type="email"]:focus {
+  outline: none;
+  border-color: blue;
+}
