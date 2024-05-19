@@ -323,7 +323,7 @@
     "description": "Color Picker is an DOM application where users can enter the number of color hex code they need. Then they click on the generate button and the application gives them that amount of color code.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/18a1eba7-5580-4b1a-9ad6-f1f8e7ef0fdb",
     "url": "./projects/Color-Picker/",
-    "github": "https://github.com/Jisan-mia/dom-projects-hakim/tree/main/projects/Color-Picker",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/Color-Picker/",
     "difficulty": "Intermediate",
     "tags": [
       "js",
@@ -337,7 +337,7 @@
     "description": "By the application user can send GET POST PUT DELETE request to an HTTP endpoint.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/c49906a7-3690-4167-a3e5-6315ea2d1d64",
     "url": "./projects/rest-client/",
-    "github": "https://github.com/Jisan-mia/dom-projects-hakim/tree/main/projects/rest-client",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/rest-client/",
     "difficulty": "Advanced",
     "tags": [
       "js",
@@ -351,7 +351,7 @@
     "description": "This is a Quran application. This application calls a free quran api.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/b6558a21-8ce3-4184-ae5e-b775e6ab39a8",
     "url": "./projects/Quran/",
-    "github": "https://github.com/Jisan-mia/dom-projects-hakim/tree/main/projects/Quran",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/Quran/",
     "difficulty": "Intermediate",
     "tags": [
       "js",
@@ -365,7 +365,7 @@
     "description": "This is a Tic Tac Toe Game.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/ab87fd6b-e1a2-4a34-bf5a-c2f103d21839",
     "url": "./projects/tic-tac-toe/",
-    "github": "https://github.com/Jisan-mia/dom-projects-hakim/tree/main/projects/tic-tac-toe/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/tic-tac-toe/",
     "difficulty": "Intermediate",
     "tags": [
       "js",
@@ -379,7 +379,7 @@
     "description": "Camera App. Supports on Chrome 53, Edge 12, Firefox 36, Opera 40, Safari 11",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/faf1660b-ece7-4333-a9fc-229ccb760311",
     "url": "./projects/camera-app/",
-    "github": "https://github.com/Jisan-mia/dom-projects-hakim/tree/main/projects/camera-app/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/camera-app/",
     "difficulty": "Intermediate",
     "tags": [
       "js",
