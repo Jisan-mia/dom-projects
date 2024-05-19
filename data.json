@@ -376,8 +376,8 @@
   {
     "id": 28,
     "name": "Camera App",
-    "description": "[Development of the project is in progress] This is a test release",
-    "image": "",
+    "description": "Camera App. Supports on Chrome 53, Edge 12, Firefox 36, Opera 40, Safari 11",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/faf1660b-ece7-4333-a9fc-229ccb760311",
     "url": "./projects/camera-app/",
     "github": "https://github.com/sadiul-hakim/dom-projects-hakim/tree/main/projects/camera-app/",
     "difficulty": "Intermediate",
