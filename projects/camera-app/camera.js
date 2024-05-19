@@ -1,3 +1,10 @@
+
+
+alert(`This application needs new version of browsers. If you are using Windows use latest version of Edge.
+ Make sure applications have permission to access your device camera.
+  On windows you can allow permission from Settings -> Privacy -> Camera -> Allow apps to access camera.`);
+
+
 async function startCamera() {
     const video = document.getElementById('video');
 
