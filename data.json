@@ -396,5 +396,16 @@
       "css",
       "html"
     ]
+  },
+
+  {
+    "id": 29,
+    "name": "Todo List Application ",
+    "description": "It's a kinda TODO site where anyone can add todo, complete, and delete them. I've worked with the date object too in this project.",
+    "image": "https://private-user-images.githubusercontent.com/148805811/337180669-8e48aa33-d1a0-4527-a9b5-d73b9b844e90.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc2NjIwMjEsIm5iZiI6MTcxNzY2MTcyMSwicGF0aCI6Ii8xNDg4MDU4MTEvMzM3MTgwNjY5LThlNDhhYTMzLWQxYTAtNDUyNy1hOWI1LWQ3M2I5Yjg0NGU5MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwNlQwODE1MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mNDUzZWNkMDQ1NzZjYWM1ZTJlNGQzY2NjMTU5MjMyYTQyYWNlMzA0ZGU2NGYwNDM2ZDlmNzQ5NWRlMjExNGE0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.borUI7YjCgOb-Y0VPCPM32Z6KyG8sjfjS6_2KmX2p98",
+    "url": "./projects/Todo-List-application/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/Todo-List-application/",
+    "difficulty": "Beginner",  
+    "tags": ["html", "css", "js"]
   }
 ]
