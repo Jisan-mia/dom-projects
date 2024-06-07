@@ -396,5 +396,16 @@
       "css",
       "html"
     ]
+  },
+
+  {
+    "id": 29,
+    "name": "Todo List Application ",
+    "description": "It's a kinda TODO site where anyone can add todo, complete, and delete them. I've worked with the date object too in this project.",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/148805811/4492c639-a970-41a2-80fe-c446c4e1eac3",
+    "url": "./projects/Todo-List-application/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/Todo-List-application/",
+    "difficulty": "Beginner",  
+    "tags": ["html", "css", "js"]
   }
 ]
