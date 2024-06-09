@@ -1,0 +1,268 @@
+/* 
+=====================================
+Shared CSS
+=====================================
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ededed;
+}
+
+:root{
+  --column-1: #979A9B;
+  --column-2: #4DAB9A;
+  --column-3: #529CCA;
+  --column-4: #9A6DD7;
+}
+
+body {
+  margin: 2% 4%;
+}
+
+main {
+  margin-top: 25px;
+}
+
+.main-header {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* 
+=====================================
+Custom Scrollbar for every column
+=====================================
+*/
+
+
+.custom-scroll {
+  overflow-y: auto;
+  max-height: 46vh;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-right: 5px;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+
+/* 
+=====================================
+Column styles
+=====================================
+*/
+
+.dragndrop-list {
+  display: flex;
+  /* justify-content: space-evenly;
+  align-items: baseline; */
+  gap: 1.4rem; 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  align-items: baseline;
+}
+
+.dragndrop-column {
+  background-color: #ffffff;
+  border-radius: 4px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.1);
+  padding-bottom: 15px;
+}
+
+.column-header h1 {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  padding:10px 0;
+  border-radius: 4px 4px 0 0;
+}
+
+.dragndrop-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  padding:0 12px;
+  min-height: 50px;
+}
+
+.dragndrop-item-list .drag-item {
+  background: #ededed;
+  padding: 16px 15px;
+  border-radius: 3px;
+  font-size: 1rem;
+  transition: 0.2s ease-in-out; 
+  height: fit-content;
+
+  border: 1px solid transparent;
+}
+.dragndrop-item-list .drag-item:focus {
+  outline: none;
+  background: #fff;
+  border-color: rgb(61, 166, 201);
+}
+
+.dragndrop-item-list .drag-item:hover {
+  background: #dbdbdb;
+}
+
+.add-btn-group {
+  padding:0 12px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 1fr auto;
+  gap: 1rem;
+}
+
+.add-container {
+  display: none;
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+}
+
+.add-container .add-item:focus {
+  box-shadow: 0 0 5px #5aa1f380;
+}
+
+
+
+.add-btn-group .solid {
+  grid-column: 3 / -1;
+  grid-row: 1 / 2;
+
+  display: none;
+}
+
+.add-container .add-item {
+  min-height: 100px;
+  border: none;
+  outline: none;
+  padding: 7px;
+
+  border: 1.5px solid #6da0dad2;
+
+}
+.add-btn-group .add-btn {
+  border: none;
+  outline: none;
+  background: #fff;
+  cursor: pointer;
+  padding: 10px 18px;
+  font-size: 1rem;
+  border-radius: 25px;
+  font-size: 500;
+  transition: 0.2s ease;
+}
+
+.add-btn-group .add-btn:hover {
+  background-color: #ededed;
+}
+
+.add-btn-group .solid:hover {
+  color: #fff;
+}
+
+
+
+
+/* 
+=====================================
+backlog column
+=====================================
+*/
+
+.backlog-column .column-header h1,
+.backlog-column .over,
+.backlog-column .solid:hover{
+  background-color: var(--column-1);
+}
+
+
+/* 
+=====================================
+progress column
+=====================================
+*/
+
+.progress-column .column-header h1,
+.progress-column .over,
+.progress-column .solid:hover {
+  background-color: var(--column-2);
+}
+
+
+
+/* 
+=====================================
+complete column
+=====================================
+*/
+
+.complete-column .column-header h1,
+.complete-column .over,
+.complete-column .solid:hover {
+  background-color: var(--column-3);
+}
+
+
+/* 
+=====================================
+on-hold column
+=====================================
+*/
+
+.on-hold-column .column-header h1,
+.on-hold-column .over,
+.on-hold-column .solid:hover  {
+  background-color: var(--column-4);
+}
+
+
+/* 
+=====================================
+drag n drop
+=====================================
+*/
+.over {
+  /* padding: 50px 0; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.over li.drag-item {
+
+}
+.drag-item-placeholder {
+  border: 1px dashed grey;
+  min-height: 50px;
+  margin: 16px 15px;
+  border-radius: 3px;
+}
+.over .drag-item-placeholder {
+  border: 1px solid rgb(151, 211, 231)
+}

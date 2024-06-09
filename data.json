@@ -320,5 +320,15 @@
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/weight-converter/",
     "difficulty": "Beginner",
     "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 32,
+    "name": "Kanban Board",
+    "description": "A simple four-state kanban board created with the Drag 'n Drop API.",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/0aaddf69-c7f1-49c1-b91c-f7f7960ca7a5",
+    "url": "./projects/kanban/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/kanban/",
+    "difficulty": "Beginner",
+    "tags": ["html", "css", "js"]
   }
 ]
