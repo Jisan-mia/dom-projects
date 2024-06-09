@@ -310,5 +310,15 @@
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/number-system-converter/",
     "difficulty": "Beginner",
     "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 31,
+    "name": "Weight Converter",
+    "description": "This is a weight converter, it converts pounds kg, grams, tonne etc at once",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/19e9411d-bb44-48ae-91e7-6fff115b7e33",
+    "url": "./projects/weight-converter/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/weight-converter/",
+    "difficulty": "Beginner",
+    "tags": ["html", "css", "js"]
   }
 ]
