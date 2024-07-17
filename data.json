@@ -7,11 +7,7 @@
     "url": "./projects/counter/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/counter",
     "difficulty": "Junior",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 2,
@@ -21,11 +17,7 @@
     "url": "./projects/dad-jokes/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/dad-jokes/",
     "difficulty": "Intermediate",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 3,
@@ -35,11 +27,7 @@
     "url": "./projects/form-validation/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/form-validation/",
     "difficulty": "Advanced",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 4,
@@ -49,11 +37,7 @@
     "url": "./projects/random-user/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/random-user/",
     "difficulty": "Advanced",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 5,
@@ -63,11 +47,7 @@
     "url": "./projects/morse-translator/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/morse-translator/",
     "difficulty": "Advanced",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 6,
@@ -77,11 +57,7 @@
     "url": "./projects/basic-calculator/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/basic-calculator/",
     "difficulty": "Junior",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 7,
@@ -91,11 +67,7 @@
     "url": "./projects/normal-calculator/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/normal-calculator/",
     "difficulty": "Intermediate",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 8,
@@ -105,11 +77,7 @@
     "url": "./projects/scientific-calculator/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/scientific-calculator/",
     "difficulty": "Advanced",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 9,
@@ -119,11 +87,7 @@
     "url": "./projects/js-todo/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/js-todo/",
     "difficulty": "Advanced",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 10,
@@ -133,11 +97,7 @@
     "url": "./projects/profile-form/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/profile-form/",
     "difficulty": "Advanced",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 11,
@@ -147,11 +107,7 @@
     "url": "./projects/pc-component-filter/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/pc-component-filter/",
     "difficulty": "Advanced",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 12,
@@ -161,11 +117,7 @@
     "url": "./projects/weather-app/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/weather-app/",
     "difficulty": "Advanced",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 13,
@@ -175,11 +127,7 @@
     "url": "./projects/testimonial-slider/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/testimonial-slider/",
     "difficulty": "Advanced",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 14,
@@ -189,11 +137,7 @@
     "url": "./projects/animation-on-scroll/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/animation-on-scroll/",
     "difficulty": "Junior",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 15,
@@ -203,11 +147,7 @@
     "url": "./projects/search-field-reveal/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/search-field-reveal/",
     "difficulty": "Junior",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 16,
@@ -217,11 +157,7 @@
     "url": "./projects/question-list-progress/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/question-list-progress/",
     "difficulty": "Junior",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
     "id": 17,
@@ -231,147 +167,117 @@
     "url": "./projects/modal/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/modal/",
     "difficulty": "Junior",
-    "tags": [
-      "css",
-      "js"
-    ]
+    "tags": ["css", "js"]
   },
   {
     "id": 18,
+    "name": "Dialog",
+    "description": "Newsletter call to action Dialog. A more modern way to implement Modals, compatible with new browsers and compliant with WCAG standards.",
+    "image": "https://user-images.githubusercontent.com/61211600/230961621-578d44cb-dc62-4d30-be56-06a28b51a1ed.png",
+    "url": "./projects/dialog/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/dialog/",
+    "difficulty": "Junior",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 19,
     "name": "Advanced Todo",
     "description": "An advanced to web application with todo state filtering and edit/delete functionality",
     "image": "https://user-images.githubusercontent.com/61211600/232296779-a7c4af29-14ac-444d-bfd1-c51f7ede3a63.png",
     "url": "./projects/advanced-todo/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/advanced-todo/",
     "difficulty": "Advanced",
-    "tags": [
-      "css",
-      "js",
-      "web-api"
-    ]
+    "tags": ["css", "js", "web-api"]
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "Retro Calculator",
     "description": "A Retro Style classic calculator web project with physical keyboard supported.",
     "image": "https://github.com/Jisan-mia/retro-calculator/assets/61211600/fe246bba-30ed-4cf7-91d6-7a95e08042dc",
     "url": "./projects/retro-calculator/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/retro-calculator/",
     "difficulty": "Advanced",
-    "tags": [
-      "oop",
-      "js",
-      "retro"
-    ]
+    "tags": ["oop", "js", "retro"]
   },
   {
-    "id": 20,
+    "id": 21,
     "name": "Simple Quiz App",
     "description": "Simple quiz app, has 3 question and timer with each question",
     "image": "https://github.com/Jisan-mia/quiz-game/assets/61211600/e25bafb2-f7eb-4f35-99d6-84787be40604",
     "url": "./projects/simple-quiz-app/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/simple-quiz-app/",
     "difficulty": "Intermediate",
-    "tags": [
-      "html",
-      "css",
-      "js"
-    ]
+    "tags": ["html", "css", "js"]
   },
   {
-    "id": 21,
+    "id": 22,
     "name": "Advanced Quiz App",
     "description": "Advance quiz app with the ability of customizing total questions, question topic and difficulty",
     "image": "https://github.com/Jisan-mia/quiz-game/assets/61211600/7ebcf760-695c-41d5-b2dc-762334784d08",
     "url": "./projects/advanced-quiz-app/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/advanced-quiz-app/",
     "difficulty": "Advanced",
-    "tags": [
-      "js",
-      "api"
-    ]
+    "tags": ["js", "api"]
   },
   {
-    "id": 22,
+    "id": 23,
     "name": "Zoned Date Time",
     "description": "Convert to any date & time zone easily",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/9aa23306-f571-4503-b73d-089f8622f5c5",
     "url": "./projects/zoned-date-time/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/zoned-date-time/",
     "difficulty": "Intermediate",
-    "tags": [
-      "js",
-      "date"
-    ]
+    "tags": ["js", "date"]
   },
   {
-    "id": 23,
+    "id": 24,
     "name": "Text Intersection",
     "description": "This app is used to get unique items from list of text. It has two input field. User can enter comma separated text and check unique items from both side. Remember only supported punctuation mark is comma.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/69128d96-1590-4d3f-a075-c1e0b959c8d4",
     "url": "./projects/text-intersection/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/text-intersection/",
     "difficulty": "Intermediate",
-    "tags": [
-      "js",
-      "css"
-    ]
+    "tags": ["js", "css"]
   },
   {
-    "id": 24,
+    "id": 25,
     "name": "Color Picker",
     "description": "Color Picker is an DOM application where users can enter the number of color hex code they need. Then they click on the generate button and the application gives them that amount of color code.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/18a1eba7-5580-4b1a-9ad6-f1f8e7ef0fdb",
     "url": "./projects/Color-Picker/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/Color-Picker/",
     "difficulty": "Intermediate",
-    "tags": [
-      "js",
-      "css",
-      "html"
-    ]
+    "tags": ["js", "css", "html"]
   },
   {
-    "id": 25,
+    "id": 26,
     "name": "REST Client",
     "description": "By the application user can send GET POST PUT DELETE request to an HTTP endpoint.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/c49906a7-3690-4167-a3e5-6315ea2d1d64",
     "url": "./projects/rest-client/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/rest-client/",
     "difficulty": "Advanced",
-    "tags": [
-      "js",
-      "css",
-      "html"
-    ]
+    "tags": ["js", "css", "html"]
   },
   {
-    "id": 26,
+    "id": 27,
     "name": "Quran",
     "description": "This is a Quran application. This application calls a free quran api.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/b6558a21-8ce3-4184-ae5e-b775e6ab39a8",
     "url": "./projects/Quran/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/Quran/",
     "difficulty": "Intermediate",
-    "tags": [
-      "js",
-      "css",
-      "html"
-    ]
+    "tags": ["js", "css", "html"]
   },
   {
-    "id": 27,
+    "id": 28,
     "name": "Tic Tac Toe",
     "description": "This is a Tic Tac Toe Game.",
     "image": "https://github.com/Jisan-mia/dom-projects/assets/92100853/ab87fd6b-e1a2-4a34-bf5a-c2f103d21839",
     "url": "./projects/tic-tac-toe/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/tic-tac-toe/",
     "difficulty": "Intermediate",
-    "tags": [
-      "js",
-      "css",
-      "html"
-    ]
+    "tags": ["js", "css", "html"]
   },
   {
     "id": 28,
@@ -381,10 +287,48 @@
     "url": "./projects/camera-app/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/camera-app/",
     "difficulty": "Intermediate",
-    "tags": [
-      "js",
-      "css",
-      "html"
-    ]
+    "tags": ["js", "css", "html"]
+  },
+
+  {
+    "id": 29,
+    "name": "Todo List Application ",
+    "description": "It's a kinda TODO site where anyone can add todo, complete, and delete them. I've worked with the date object too in this project.",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/148805811/4492c639-a970-41a2-80fe-c446c4e1eac3",
+    "url": "./projects/Todo-List-application/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/Todo-List-application/",
+    "difficulty": "Beginner",
+    "tags": ["html", "css", "js"]
+  },
+
+  {
+    "id": 30,
+    "name": "Number System Converter",
+    "description": "Anyone can convert from one number system to others, like Binary to Decimal, Octal, Hexadecimal as well as other's too",
+    "image": "https://github.com/Jisan-mia/js-number-conversion/assets/61211600/b4e5eaf3-a54b-47c2-8134-6b7e3b156224",
+    "url": "./projects/number-system-converter/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/number-system-converter/",
+    "difficulty": "Beginner",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 31,
+    "name": "Weight Converter",
+    "description": "This is a weight converter, it converts pounds kg, grams, tonne etc at once",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/19e9411d-bb44-48ae-91e7-6fff115b7e33",
+    "url": "./projects/weight-converter/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/weight-converter/",
+    "difficulty": "Beginner",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 32,
+    "name": "Kanban Board",
+    "description": "A simple four-state kanban board created with the Drag 'n Drop API.",
+    "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/0aaddf69-c7f1-49c1-b91c-f7f7960ca7a5",
+    "url": "./projects/kanban/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/kanban/",
+    "difficulty": "Beginner",
+    "tags": ["html", "css", "js"]
   }
 ]

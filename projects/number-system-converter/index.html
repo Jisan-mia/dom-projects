@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Projects | Number System Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main-section">
+      <div class="container">
+        <h1>Number System Converter</h1>
+        <form class="form">
+          <div class="form-group">
+            <label for="binary">Binary</label>
+            <input
+              oninput="binaryToOthers(this.value)"
+              id="binaryInput"
+              type="number"
+              placeholder="Enter digit 0 and 1"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="decimal">Decimal</label>
+            <input
+              oninput="decimalToOthers(this.value)"
+              id="decimalInput"
+              type="number"
+              placeholder="Enter digit 0-9"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="octal">Octal</label>
+            <input
+              oninput="octalToOthers(this.value)"
+              id="octalInput"
+              type="number"
+              placeholder="Enter digit 0-7 "
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="hexadecimal">HexaDecimal</label>
+            <input
+              oninput="hexaDToOthers(this.value)"
+              id="hexaDInput"
+              type="text"
+              spellcheck="false"
+              autocomplete="off"
+              placeholder="Enter digit 0-9 and a-f"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
