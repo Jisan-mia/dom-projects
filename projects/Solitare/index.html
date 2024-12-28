@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Solitaire</title>
+    <link rel="stylesheet" type="text/css" href="css/cardstarter.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="topPanel">
+        <span class="moveCounter">
+            Moves: 0
+        </span>
+        <button class="reset">
+            New Game
+        </button>
+        </button>
+        <span class="score">
+            Score: 0
+        </span>
+    </div>
+    <div class="winMessage">
+    </div>
+    <table class="topPiles">
+        <tr>
+            <td class="deck card"></td>
+            <td class="deckPile card">d</td>
+            <td class="empty card"></td>
+            <td class="finalPile1 card">d</td>
+            <td class="finalPile2 card">d</td>
+            <td class="finalPile3 card">d</td>
+            <td class="finalPile4 card">d</td>
+        </tr>
+    </table>
+    <br><br><br><br><br>
+    <table class="boardPile">
+        <tr class="row1">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row2">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row3">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row4">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row5">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row6">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row7">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row8">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row9">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row10">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row11">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row12">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row13">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row14">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row15">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row16">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row17">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row18">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+        <tr class="row19">
+            <td class="boardPile1 card">d</td>
+            <td class="boardPile2 card">d</td>
+            <td class="boardPile3 card">d</td>
+            <td class="boardPile4 card">d</td>
+            <td class="boardPile5 card">d</td>
+            <td class="boardPile6 card">d</td>
+            <td class="boardPile7 card">d</td>
+        </tr>
+    </table>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

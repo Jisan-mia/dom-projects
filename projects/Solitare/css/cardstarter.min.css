@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.card{box-sizing:border-box;display:inline-block;margin:.125em;cursor:pointer;font-size:inherit;width:4em;height:5.5em;background-color:#fff;border-radius:.2em;border:1px solid #c3c3c3;background-repeat:no-repeat;background-position:center center;background-size:contain;text-indent:100%;white-space:nowrap;overflow:hidden}
+.card.small{font-size:12px}
+.card.large{font-size:26px}
+.card.xlarge{font-size:42px}
+.card.no-border{border:0}
+.card.shadow{box-shadow:2px 2px 3px 0 rgba(41,41,41,.75)}
+.card.outline{background-image:none;background-color:rgba(195,195,195,.5);border:.15em dashed #daa520}
+.card.dA,.card.diamonds.A,.card.♦A{background-image:url(../images/diamonds/diamonds-A.svg)}
+.card.dK,.card.diamonds.K,.card.♦K{background-image:url(../images/diamonds/diamonds-K.svg)}
+.card.dQ,.card.diamonds.Q,.card.♦Q{background-image:url(../images/diamonds/diamonds-Q.svg)}
+.card.dJ,.card.diamonds.J,.card.♦J{background-image:url(../images/diamonds/diamonds-J.svg)}
+.card.d10,.card.diamonds.r10,.card.♦10{background-image:url(../images/diamonds/diamonds-r10.svg)}
+.card.d09,.card.diamonds.r09,.card.♦09{background-image:url(../images/diamonds/diamonds-r09.svg)}
+.card.d08,.card.diamonds.r08,.card.♦08{background-image:url(../images/diamonds/diamonds-r08.svg)}
+.card.d07,.card.diamonds.r07,.card.♦07{background-image:url(../images/diamonds/diamonds-r07.svg)}
+.card.d06,.card.diamonds.r06,.card.♦06{background-image:url(../images/diamonds/diamonds-r06.svg)}
+.card.d05,.card.diamonds.r05,.card.♦05{background-image:url(../images/diamonds/diamonds-r05.svg)}
+.card.d04,.card.diamonds.r04,.card.♦04{background-image:url(../images/diamonds/diamonds-r04.svg)}
+.card.d03,.card.diamonds.r03,.card.♦03{background-image:url(../images/diamonds/diamonds-r03.svg)}
+.card.d02,.card.diamonds.r02,.card.♦02{background-image:url(../images/diamonds/diamonds-r02.svg)}
+.card.hA,.card.hearts.A,.card.♥A{background-image:url(../images/hearts/hearts-A.svg)}
+.card.hK,.card.hearts.K,.card.♥K{background-image:url(../images/hearts/hearts-K.svg)}
+.card.hQ,.card.hearts.Q,.card.♥Q{background-image:url(../images/hearts/hearts-Q.svg)}
+.card.hJ,.card.hearts.J,.card.♥J{background-image:url(../images/hearts/hearts-J.svg)}
+.card.h10,.card.hearts.r10,.card.♥10{background-image:url(../images/hearts/hearts-r10.svg)}
+.card.h09,.card.hearts.r09,.card.♥09{background-image:url(../images/hearts/hearts-r09.svg)}
+.card.h08,.card.hearts.r08,.card.♥08{background-image:url(../images/hearts/hearts-r08.svg)}
+.card.h07,.card.hearts.r07,.card.♥07{background-image:url(../images/hearts/hearts-r07.svg)}
+.card.h06,.card.hearts.r06,.card.♥06{background-image:url(../images/hearts/hearts-r06.svg)}
+.card.h05,.card.hearts.r05,.card.♥05{background-image:url(../images/hearts/hearts-r05.svg)}
+.card.h04,.card.hearts.r04,.card.♥04{background-image:url(../images/hearts/hearts-r04.svg)}
+.card.h03,.card.hearts.r03,.card.♥03{background-image:url(../images/hearts/hearts-r03.svg)}
+.card.h02,.card.hearts.r02,.card.♥02{background-image:url(../images/hearts/hearts-r02.svg)}
+.card.sA,.card.spades.A,.card.♠A{background-image:url(../images/spades/spades-A.svg)}
+.card.sK,.card.spades.K,.card.♠K{background-image:url(../images/spades/spades-K.svg)}
+.card.sQ,.card.spades.Q,.card.♠Q{background-image:url(../images/spades/spades-Q.svg)}
+.card.sJ,.card.spades.J,.card.♠J{background-image:url(../images/spades/spades-J.svg)}
+.card.s10,.card.spades.r10,.card.♠10{background-image:url(../images/spades/spades-r10.svg)}
+.card.s09,.card.spades.r09,.card.♠09{background-image:url(../images/spades/spades-r09.svg)}
+.card.s08,.card.spades.r08,.card.♠08{background-image:url(../images/spades/spades-r08.svg)}
+.card.s07,.card.spades.r07,.card.♠07{background-image:url(../images/spades/spades-r07.svg)}
+.card.s06,.card.spades.r06,.card.♠06{background-image:url(../images/spades/spades-r06.svg)}
+.card.s05,.card.spades.r05,.card.♠05{background-image:url(../images/spades/spades-r05.svg)}
+.card.s04,.card.spades.r04,.card.♠04{background-image:url(../images/spades/spades-r04.svg)}
+.card.s03,.card.spades.r03,.card.♠03{background-image:url(../images/spades/spades-r03.svg)}
+.card.s02,.card.spades.r02,.card.♠02{background-image:url(../images/spades/spades-r02.svg)}
+.card.cA,.card.clubs.A,.card.♣A{background-image:url(../images/clubs/clubs-A.svg)}
+.card.cK,.card.clubs.K,.card.♣K{background-image:url(../images/clubs/clubs-K.svg)}
+.card.cQ,.card.clubs.Q,.card.♣Q{background-image:url(../images/clubs/clubs-Q.svg)}
+.card.cJ,.card.clubs.J,.card.♣J{background-image:url(../images/clubs/clubs-J.svg)}
+.card.c10,.card.clubs.r10,.card.♣10{background-image:url(../images/clubs/clubs-r10.svg)}
+.card.c09,.card.clubs.r09,.card.♣09{background-image:url(../images/clubs/clubs-r09.svg)}
+.card.c08,.card.clubs.r08,.card.♣08{background-image:url(../images/clubs/clubs-r08.svg)}
+.card.c07,.card.clubs.r07,.card.♣07{background-image:url(../images/clubs/clubs-r07.svg)}
+.card.c06,.card.clubs.r06,.card.♣06{background-image:url(../images/clubs/clubs-r06.svg)}
+.card.c05,.card.clubs.r05,.card.♣05{background-image:url(../images/clubs/clubs-r05.svg)}
+.card.c04,.card.clubs.r04,.card.♣04{background-image:url(../images/clubs/clubs-r04.svg)}
+.card.c03,.card.clubs.r03,.card.♣03{background-image:url(../images/clubs/clubs-r03.svg)}
+.card.c02,.card.clubs.r02,.card.♣02{background-image:url(../images/clubs/clubs-r02.svg)}
+.card.joker{background-image:url(../images/jokers/joker.svg)}
+.card.joker-black{background-image:url(../images/jokers/joker-black.svg)}
+.card.joker-red{background-image:url(../images/jokers/joker-red.svg)}
+.card.back,.card.back-blue{background-image:url(../images/backs/blue.svg)}
+.card.back-red{background-image:url(../images/backs/red.svg)}
+.card.W,.card.west{transform:rotate(90deg);margin:auto .75em}
+.card.W.shadow,.card.west.shadow{box-shadow:2px -2px 3px 0 rgba(41,41,41,.75)}
+.card.N,.card.north{transform:rotate(180deg)}
+.card.N.shadow,.card.north.shadow{box-shadow:-2px -2px 3px 0 rgba(41,41,41,.75)}
+.card.E,.card.east{transform:rotate(270deg);margin:auto .75em}
+.card.E.shadow,.card.east.shadow{box-shadow:-2px 2px 3px 0 rgba(41,41,41,.75)}

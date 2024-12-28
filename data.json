@@ -330,5 +330,16 @@
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/kanban/",
     "difficulty": "Beginner",
     "tags": ["html", "css", "js"]
-  }
+  },
+{
+  "id": 33,
+  "name": "Solitare",
+  "description": "The classic Solitaire card game. ",
+  "image": "https://github.com/williamtitus295661/dom-projects/Solitare/assets/Screenshot%202024-12-17%20223834.png",
+  "url": "./projects/Solitare/",
+  "github": "https://github.com/Jisan-mia/dom-projects/tree/Solitare/projects/Solitare",
+  "difficulty": "Intermediate",
+  "tags": ["HTML", "CSS", "JS"]
+
+}
 ]
