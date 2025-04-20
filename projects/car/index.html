@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Car Game</title>
+    <style>
+        :root{
+            --road-with:506px;
+            --road-height:710px;
+            --car-width:80px;
+            --car-height:145px;
+        }
+        #road {
+            position: relative;
+            width: var(--road-with);
+            height: var(--road-height);
+            background-image: url("img/road.png");
+            overflow: hidden;
+        }
+        .container{
+            width: 90%;
+            margin: 50px auto 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        #myCar {
+            width: var(--car-width);
+            height: var(--car-height);
+            background-image: url("img/g1.png");
+            display: block;
+            z-index: 100;
+            position: absolute;
+            bottom: 0;
+        }
+
+        #comingCar1 {
+            width: var(--car-width);
+            height: var(--car-height);
+            background-image: url("img/c1.png");
+            display: block;
+            z-index: 100;
+            position: absolute;
+            top: 0;
+        }
+
+        #comingCar2 {
+            width: var(--car-width);
+            height: var(--car-height);
+            background-image: url("img/c2.png");
+            display: block;
+            z-index: 100;
+            position: absolute;
+            top: 0;
+        }
+
+        #comingCar3 {
+            width: var(--car-width);
+            height: var(--car-height);
+            background-image: url("img/c3.png");
+            display: block;
+            z-index: 100;
+            position: absolute;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="road">
+        <div id="myCar"></div>
+    </div>
+</div>
+</body>
+<script src="game.js">
+</script>
+</html>

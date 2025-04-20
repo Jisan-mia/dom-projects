@@ -330,5 +330,15 @@
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/kanban/",
     "difficulty": "Beginner",
     "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 33,
+    "name": "Car Game",
+    "description": "A simple Car Game.",
+    "image": "https://github.com/user-attachments/assets/75294c6e-34cd-4d2d-b8e8-c77f2b15c732",
+    "url": "./projects/car/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/car/",
+    "difficulty": "Intermediate",
+    "tags": ["html", "css", "js"]
   }
 ]
