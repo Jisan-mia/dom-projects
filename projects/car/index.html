@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Car Game</title>
     <style>
-        :root{
-            --road-with:506px;
-            --road-height:710px;
-            --car-width:80px;
-            --car-height:145px;
+        :root {
+            --road-with: 506px;
+            --road-height: 710px;
+            --car-width: 80px;
+            --car-height: 145px;
         }
+
+        body{
+            background: #3c3c3d;
+        }
+
         #road {
             position: relative;
             width: var(--road-with);
@@ -18,11 +23,14 @@
             background-image: url("img/road.png");
             overflow: hidden;
         }
-        .container{
+
+        .container {
             width: 90%;
             margin: 50px auto 0;
             display: flex;
             justify-content: center;
+            flex-direction: column;
+            align-items: center;
         }
 
         #myCar {
@@ -64,10 +72,28 @@
             position: absolute;
             top: 0;
         }
+
+        #guide {
+            font-size: 20px;
+            font-weight: 500;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        #score {
+            font-size: 16px;
+            font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #7ab653;
+        }
     </style>
 </head>
 <body>
+<div id="guide">
+    <p>Press ⬅️➡️ keys to move.</p>
+</div>
 <div class="container">
+    <p id="score"></p>
     <div id="road">
         <div id="myCar"></div>
     </div>

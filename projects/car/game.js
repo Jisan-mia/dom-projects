@@ -1,8 +1,10 @@
 const myCar = document.getElementById("myCar");
 const road = document.getElementById("road");
+const score = document.getElementById("score");
 
 const carList = [];
 let gameOver = false;
+let scoreNum = 0;
 
 // Set initial position
 let carX = 210; // pixels from the left
@@ -25,6 +27,8 @@ document.addEventListener("keydown", (e) => {
 let movementInterval = setInterval(() => {
     if (gameOver) return;
 
+    score.innerText = "Score: "+scoreNum;
+
     for (let car of carList) {
         // Get bounding boxes
         let myCarRect = myCar.getBoundingClientRect();
@@ -43,6 +47,8 @@ let movementInterval = setInterval(() => {
             break;
         }
     }
+
+    scoreNum++;
 }, 60);
 
 // Move Car
