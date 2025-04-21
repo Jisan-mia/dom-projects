@@ -330,5 +330,25 @@
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/kanban/",
     "difficulty": "Beginner",
     "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 33,
+    "name": "Car Game",
+    "description": "A simple Car Game.",
+    "image": "https://github-production-user-asset-6210df.s3.amazonaws.com/92100853/435460919-75294c6e-34cd-4d2d-b8e8-c77f2b15c732.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250421%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250421T031549Z&X-Amz-Expires=300&X-Amz-Signature=04224df7dd4916922a95a7b6cefdd50162da785178594c7e7f0e489a5ef4e183&X-Amz-SignedHeaders=host",
+    "url": "./projects/car/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/car/",
+    "difficulty": "Intermediate",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 34,
+    "name": "Flappy Bord",
+    "description": "A simple bird Game.",
+    "image": "https://github-production-user-asset-6210df.s3.amazonaws.com/92100853/435531189-267d092e-657d-4c5d-8d54-2786c8dad778.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250421%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250421T031911Z&X-Amz-Expires=300&X-Amz-Signature=9d078ae710966c459dcca10258176e5008e70e02e0036912701a5330c4154f5c&X-Amz-SignedHeaders=host",
+    "url": "./projects/flappy-bird/",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/flappy-bird/",
+    "difficulty": "Intermediate",
+    "tags": ["html", "css", "js"]
   }
 ]
