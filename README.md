@@ -23,6 +23,9 @@
 <img src="https://img.shields.io/github/issues-pr/Jisan-mia/dom-projects?style=flat-square" alt="dom-projects pull-requests"/>
 </a>
 <a href="https://twitter.com/intent/tweet?text=👋%20Check%20this%20amazing%20app%20https://jisan.io/dom-projects,%20created%20by%20@jisanmia47%20and%20friends%0A%0A%23DEVCommunity%20%23100DaysOfCode"><img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2FJisan-mia%2Fdom-projects"></a>
+<a href="https://deepwiki.com/Jisan-mia/dom-projects" target="blank">
+<img src="https://deepwiki.com/badge.svg" alt="dom-projects pull-requests"/>
+</a>
 
 </p>
 
