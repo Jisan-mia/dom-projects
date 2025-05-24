@@ -289,7 +289,6 @@
     "difficulty": "Intermediate",
     "tags": ["js", "css", "html"]
   },
-
   {
     "id": 29,
     "name": "Todo List Application ",
@@ -300,7 +299,6 @@
     "difficulty": "Beginner",
     "tags": ["html", "css", "js"]
   },
-
   {
     "id": 30,
     "name": "Number System Converter",
@@ -328,6 +326,16 @@
     "image": "https://github.com/Jisan-mia/dom-projects/assets/61211600/0aaddf69-c7f1-49c1-b91c-f7f7960ca7a5",
     "url": "./projects/kanban/",
     "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/kanban/",
+    "difficulty": "Beginner",
+    "tags": ["html", "css", "js"]
+  },
+  {
+    "id": 33,
+    "name": "Name Reverser",
+    "description": "A simple I/O demo that reverses a user's input name.",
+    "image": "images/project-add.png",
+    "url": "./projects/name-reverser/index.html",
+    "github": "https://github.com/Jisan-mia/dom-projects/tree/main/projects/name-reverser/",
     "difficulty": "Beginner",
     "tags": ["html", "css", "js"]
   }
